@@ -7,6 +7,7 @@ def fstRule(s):
 			s += '0\n'
 	return s
 
+
 #Each number appears at most once in each row:
 def secondRule(s):
 	for y in range(1,9):
@@ -16,7 +17,7 @@ def secondRule(s):
 					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z) + ' ' + '0\n'
 			
 	return s
-	
+
 #Each number appears at most once in each column
 def thrdRule(s):
 	for x in range(1, 10):

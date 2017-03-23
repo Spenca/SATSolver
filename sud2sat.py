@@ -12,9 +12,8 @@ def secondRule(s):
 	for y in range(1,9):
 		for z in range(1,9):
 			for x in range(1,8):
-				for i in range(x+1,9):
-					
-					s1 += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z) + ' ' + '0\n'
+				for i in range(x+1,9):					
+					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z) + ' ' + '0\n'
 			
 	return s
 	

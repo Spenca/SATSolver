@@ -1,3 +1,5 @@
+
+
 #There is at least one number in each entry
 def fstRule(s):
 	for x in range(1, 10):
@@ -14,7 +16,7 @@ def secondRule(s):
 		for z in range(1,9):
 			for x in range(1,8):
 				for i in range(x+1,9):					
-					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z) + ' ' + '0\n'
+					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z)  + '0\n'
 			
 	return s
 

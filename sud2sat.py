@@ -54,7 +54,7 @@ def sudRule(s, sudoku):
 	for i, c in enumerate(sudoku):
 		cInt = int(c)
 		if cInt > 0:
-			s += str(int(i) % 9 + 1) + str(int(i) / 9 + 1) + c + ' 0\n'
+			s += str(int(i) / 9 + 1) + str(int(i) % 9 + 1) + c + ' 0\n'
 	return s
 
 testSud = '003020600900305001001806400008102900700000008006708200002609500800203009005010300'

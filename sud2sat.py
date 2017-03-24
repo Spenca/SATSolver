@@ -10,10 +10,10 @@ def fstRule(s):
 
 #Each number appears at most once in each row
 def sndRule(s):
-	for y in range(1,9):
-		for z in range(1,9):
-			for x in range(1,8):
-				for i in range(x+1,9):					
+	for y in range(1,10):
+		for z in range(1,10):
+			for x in range(1,9):
+				for i in range(x+1,10):					
 					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z)  + ' 0\n'
 	return s
 

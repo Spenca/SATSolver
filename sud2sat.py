@@ -52,12 +52,15 @@ def frthRuleP2(s):
 #Each number in a provided Sudoku instance encoding appears in appropriate cell
 def sudRule(s, sudoku):
 	for i, c in enumerate(sudoku):
-		cInt = int(c)
-		if cInt > 0:
-			s += str(int(i) / 9 + 1) + str(int(i) % 9 + 1) + c + ' 0\n'
+		try:
+			cInt = int(c)
+			if cInt > 0:
+				s += str(int(i) / 9 + 1) + str(int(i) % 9 + 1) + c + ' 0\n'
+		except ValueError:
+			continue
 	return s
 
-testSud = '003020600900305001001806400008102900700000008006708200002609500800203009005010300'
+testSud = '4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......'
 s = sudRule(frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule('p cnf 729 8829\n'))))), testSud)
 
 f = open('testSAT', 'w')

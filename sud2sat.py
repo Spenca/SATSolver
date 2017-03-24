@@ -14,7 +14,7 @@ def sndRule(s):
 		for z in range(1,9):
 			for x in range(1,8):
 				for i in range(x+1,9):					
-					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z)  + '0\n'
+					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z)  + ' 0\n'
 	return s
 
 #Each number appears at most once in each column
@@ -54,5 +54,12 @@ def sudRule(s, sudoku):
 	for i, c in enumerate(sudoku):
 		cInt = int(c)
 		if cInt > 0:
-			s += str(int(i) % 9 + 1) + str(int(i) / 9 + 1) + c + ' \n'
+			s += str(int(i) % 9 + 1) + str(int(i) / 9 + 1) + c + ' 0\n'
 	return s
+
+testSud = '003020600900305001001806400008102900700000008006708200002609500800203009005010300'
+s = sudRule(frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule('p cnf 729 8829\n'))))), testSud)
+
+f = open('testSAT', 'w')
+f.write(s)
+f.close()

@@ -1,5 +1,3 @@
-
-
 #There is at least one number in each entry
 def fstRule(s):
 	for x in range(1, 10):
@@ -10,14 +8,13 @@ def fstRule(s):
 	return s
 
 
-#Each number appears at most once in each row:
-def secondRule(s):
+#Each number appears at most once in each row
+def sndRule(s):
 	for y in range(1,9):
 		for z in range(1,9):
 			for x in range(1,8):
 				for i in range(x+1,9):					
 					s += '-' + str(x) +str(y) + str(z) + ' '  + '-' + str(i) + str(y) + str(z)  + '0\n'
-			
 	return s
 
 #Each number appears at most once in each column
@@ -51,3 +48,11 @@ def frthRuleP2(s):
 							for l in range(1, 4):
 								s += '-' + str(3 * i + x) + str(3 * j + y) + str(z) + ' ' + '-' + str(3 * i + k) + str(3 * j + l) + str(z) + ' 0\n'
 	return s	
+
+#Each number in a provided Sudoku instance encoding appears in appropriate cell
+def sudRule(s, sudoku):
+	for i, c in enumerate(sudoku):
+		cInt = int(c)
+		if cInt > 0:
+			s += str(int(i) % 9 + 1) + str(int(i) / 9 + 1) + c + ' \n'
+	return s

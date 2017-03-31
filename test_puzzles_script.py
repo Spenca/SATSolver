@@ -1,7 +1,11 @@
+import sys
 import subprocess
 
 def runSolver(s):
-	subprocess.check_output(["python", "sud2sat.py", s])
+	if len(sys.argv) > 1 and sys.argv[1] == "1":
+		subprocess.check_output(["python", "sud2sat.py", s, "1"])
+	else:
+		subprocess.check_output(["python", "sud2sat.py", s])
 	p = subprocess.Popen(["minisat", "sud2satOutput", "miniSATOutput"], stdout=subprocess.PIPE)
 	out, err = p.communicate()
 

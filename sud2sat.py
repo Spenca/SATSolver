@@ -62,17 +62,6 @@ def sudRule(s, sudoku):
 			continue
 	return s
 
-sud = sys.argv[1]
-sud = "".join(sud.split())
-
-s = sudRule('', sud)
-s = 'p cnf 999 ' + str(8829 + len(s.split('\n')) - 1) + '\n' + s
-s = frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule(s)))))
-
-f = open('sud2satOutput', 'w')
-f.write(s)
-f.close()
-
 #There is at most one number in each entry
 def fstExtRule(s):
 	for x in range(1, 10):
@@ -100,7 +89,7 @@ def thrdExtRule(s):
 			s += '0\n'
 	return s
 
-#Each number appears at least once in each 3×3 sub-grid
+#Each number appears at least once in each 3x3 sub-grid
 def frthExtRule(s):
 	for z in range(1, 10):
 		for i in range(0, 3):
@@ -110,3 +99,20 @@ def frthExtRule(s):
 						s += str(3 * i + x) + str(3 * j + y) + str(z) + ' '
 				s += '0\n'
 	return s
+
+sud = sys.argv[1]
+sud = "".join(sud.split())
+
+if len(sys.argv) > 2 and sys.argv[2] == "1":
+	s = sudRule('', sud)
+	s = 'p cnf 999 ' + str(11988 + len(s.split('\n')) - 1) + '\n' + s
+	s = frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule(s)))))
+	s = fstExtRule(sndExtRule(thrdExtRule(frthExtRule(s))))
+else:
+	s = sudRule('', sud)
+	s = 'p cnf 999 ' + str(8829 + len(s.split('\n')) - 1) + '\n' + s
+	s = frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule(s)))))
+
+f = open('sud2satOutput', 'w')
+f.write(s)
+f.close()

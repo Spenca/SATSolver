@@ -63,6 +63,7 @@ def sudRule(s, sudoku):
 	return s
 
 sud = sys.argv[1]
+sud = "".join(sud.split())
 
 s = sudRule('', sud)
 s = 'p cnf 999 ' + str(8829 + len(s.split('\n')) - 1) + '\n' + s

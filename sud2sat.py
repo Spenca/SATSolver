@@ -1,3 +1,5 @@
+import sys
+
 #There is at least one number in each entry
 def fstRule(s):
 	for x in range(1, 10):

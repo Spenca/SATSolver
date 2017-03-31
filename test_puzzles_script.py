@@ -32,12 +32,3 @@ with open("test_puzzles.txt") as test_puzzles:
 			runSolver(s)
 			s = ""
 		lineNum += 1
-
-
-
-
-
-
-
-
-

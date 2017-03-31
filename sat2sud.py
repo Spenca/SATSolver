@@ -10,4 +10,4 @@ def genSudoku(s):
 			continue
 	print output
 
-genSudoku(open("testSATOutput", "r"))
+genSudoku(open("miniSATOutput", "r"))

@@ -60,9 +60,12 @@ def sudRule(s, sudoku):
 			continue
 	return s
 
-testSud = '4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......'
-s = sudRule(frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule('p cnf 729 8829\n'))))), testSud)
+sud = sys.argv[1]
 
-f = open('testSAT', 'w')
+s = sudRule('', sud)
+s = 'p cnf 999 ' + str(8829 + len(s.split('\n')) - 1) + '\n' + s
+s = frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule(s)))))
+
+f = open('sud2satOutput', 'w')
 f.write(s)
 f.close()

@@ -72,3 +72,41 @@ s = frthRuleP2(frthRuleP1(thrdRule(sndRule(fstRule(s)))))
 f = open('sud2satOutput', 'w')
 f.write(s)
 f.close()
+
+#There is at most one number in each entry
+def fstExtRule(s):
+	for x in range(1, 10):
+		for y in range(1, 10):
+			for z in range(1, 9):
+				for i in range(z+1, 10):
+					s += '-' + str(x) + str(y) + str(z) + ' ' + '-' + str(x) + str(y) + str(i) + ' 0\n'
+	return s
+
+#Each number appears at least once in each row
+def sndExtRule(s):
+	for y in range(1, 10):
+		for z in range(1, 10):
+			for x in range(1, 10):
+				s += str(x) + str(y) + str(z) + ' '
+			s += '0\n'
+	return s
+
+#Each number appears at least once in each column
+def thrdExtRule(s):
+	for x in range(1, 10):
+		for z in range(1, 10):
+			for y in range(1, 10):
+				s += str(x) + str(y) + str(z) + ' '
+			s += '0\n'
+	return s
+
+#Each number appears at least once in each 3×3 sub-grid
+def frthExtRule(s):
+	for z in range(1, 10):
+		for i in range(0, 3):
+			for j in range(0, 3):
+				for x in range(1, 4):
+					for y in range(1, 4):
+						s += str(3 * i + x) + str(3 * j + y) + str(z) + ' '
+				s += '0\n'
+	return s

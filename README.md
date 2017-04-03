@@ -10,7 +10,7 @@ We finished the basic task and the three extended tasks.
 
 
 **Files in Submission:**<br />
--README.md<br />
+-README<br />
 -Report<br />
 -sud2sat.py<br />
 -sat2sud.py<br />
@@ -19,7 +19,7 @@ We finished the basic task and the three extended tasks.
 -top95.txt<br />
 -top95_script.py<br />
 <br />
-**README.md**
+**README**
 This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,
 the Readme also includes details about our files that help people understand and use the code. Group member names and IDs
 are written in this file. 
@@ -37,6 +37,7 @@ To run the sud2say: $ python sud2sat.py < name of test files >.txt
 Afterwards, a txt file called "sud2satOutput" will be generated
 To run this txt with miniSAT: $ minsat < name of testfile >.txt < name of output file >.txt
 <br />
+<br />
 Note: only one sudoku puzzle can be run in the testfile. 
 <br />
 <br />
@@ -44,11 +45,12 @@ Note: only one sudoku puzzle can be run in the testfile.
 This file is an executable that reads the output generated from miniSAT and converts the output back into a sudoku puzzle encoded as an 81 character string.
 Convert the output back to a sudoku: 	$ python sat2sud.py < name of testfile of sudoku in CNF from >.txt
 <br />
+<br />
 Note: the solved sudoku puzzle will be shown in a 9x9 grid in the terminal. 
 <br />
 <br />
 **test_puzzles.txt**
-This file contains 50 unsolved sudoku puzzles that come from [projecteuler.net/project/resources/p096_sudoku.txt](projecteuler.net/project/resources/p096_sudoku.txt) 
+This file contains 50 unsolved sudoku puzzles that come from <a href="projecteuler.net/project/resources/p096_sudoku.txt">projecteuler.net/project/resources/p096_sudoku.txt</a>
 <br /> These puzzles were used to test our solution and we documented the results of the tests. 
 <br />
 <br />
@@ -60,11 +62,11 @@ puzzle solutions to two files.
 ## Extended Tasks
 We did three extended tasks. 
 <br />
-<br />
 ### First Extended Task
-The first extended task consisted of testing the solver on hard inputs from [http://magictour.free.fr/top95](http://magictour.free.fr/top95)
+The first extended task consisted of testing the solver on hard inputs from 
+<a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>
 **top95.txt**
-This txt file includes the hard inputs from [http://magictour.free.fr/top95](http://magictour.free.fr/top95). This contents of the file will be run by top95_script.py
+This txt file includes the hard inputs from <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>. This contents of the file will be run by top95_script.py
 <br />
 <br />
 **top95_script.py**

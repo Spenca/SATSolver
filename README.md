@@ -18,6 +18,7 @@ We finished the basic task and the three extended tasks.
 -test_puzzles_script.py<br />
 -top95.txt<br />
 -top95_script.py<br />
+<br />
 **README.md**
 This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,
 the Readme also includes details about our files that help people understand and use the code. Group member names and IDs
@@ -47,7 +48,8 @@ Note: the solved sudoku puzzle will be shown in a 9x9 grid in the terminal.
 <br />
 <br />
 **test_puzzles.txt**
-This file contains 50 unsolved sudoku puzzles that come from (projecteuler.net/project/resources/p096_sudoku.txt). These puzzles were used to test our solution and we documented the results of the tests. 
+This file contains 50 unsolved sudoku puzzles that come from [projecteuler.net/project/resources/p096_sudoku.txt](projecteuler.net/project/resources/p096_sudoku.txt) 
+<br /> These puzzles were used to test our solution and we documented the results of the tests. 
 <br />
 <br />
 **test_puzzles_script.py**
@@ -59,10 +61,10 @@ puzzle solutions to two files.
 We did three extended tasks. 
 <br />
 <br />
-###First Extended Task
-The first extended task consisted of testing the solver on hard inputs from (http://magictour.free.fr/top95)
+### First Extended Task
+The first extended task consisted of testing the solver on hard inputs from [http://magictour.free.fr/top95](http://magictour.free.fr/top95)
 **top95.txt**
-This txt file includes the hard inputs from (http://magictour.free.fr/top95). This contents of the file will be run by top95_script.py
+This txt file includes the hard inputs from [http://magictour.free.fr/top95](http://magictour.free.fr/top95). This contents of the file will be run by top95_script.py
 <br />
 <br />
 **top95_script.py**

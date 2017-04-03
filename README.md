@@ -50,7 +50,7 @@ Note: the solved sudoku puzzle will be shown in a 9x9 grid in the terminal.
 <br />
 <br />
 **test_puzzles.txt**
-This file contains 50 unsolved sudoku puzzles that come from <a href="projecteuler.net/project/resources/p096_sudoku.txt">projecteuler.net/project/resources/p096_sudoku.txt</a>
+This file contains 50 unsolved sudoku puzzles that come from <a href="https://projecteuler.net/project/resources/p096_sudoku.txt">https://projecteuler.net/project/resources/p096_sudoku.txt</a>
 <br /> These puzzles were used to test our solution and we documented the results of the tests. 
 <br />
 <br />
@@ -65,6 +65,8 @@ We did three extended tasks.
 ### First Extended Task
 The first extended task consisted of testing the solver on hard inputs from 
 <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>
+<br />
+<br />
 **top95.txt**
 This txt file includes the hard inputs from <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>. This contents of the file will be run by top95_script.py
 <br />

@@ -1,0 +1,150 @@
+puzzle:1 
+CPU time              : 0.004538 s
+
+puzzle:2 
+CPU time              : 0.005362 s
+
+puzzle:3 
+CPU time              : 0.005328 s
+
+puzzle:4 
+CPU time              : 0.007192 s
+
+puzzle:5 
+CPU time              : 0.004159 s
+
+puzzle:6 
+CPU time              : 0.006092 s
+
+puzzle:7 
+CPU time              : 0.005402 s
+
+puzzle:8 
+CPU time              : 0.004323 s
+
+puzzle:9 
+CPU time              : 0.006913 s
+
+puzzle:10 
+CPU time              : 0.006124 s
+
+puzzle:11 
+CPU time              : 0.005932 s
+
+puzzle:12 
+CPU time              : 0.004763 s
+
+puzzle:13 
+CPU time              : 0.005736 s
+
+puzzle:14 
+CPU time              : 0.005457 s
+
+puzzle:15 
+CPU time              : 0.004936 s
+
+puzzle:16 
+CPU time              : 0.004059 s
+
+puzzle:17 
+CPU time              : 0.004199 s
+
+puzzle:18 
+CPU time              : 0.005095 s
+
+puzzle:19 
+CPU time              : 0.005003 s
+
+puzzle:20 
+CPU time              : 0.004427 s
+
+puzzle:21 
+CPU time              : 0.0062 s
+
+puzzle:22 
+CPU time              : 0.005178 s
+
+puzzle:23 
+CPU time              : 0.005156 s
+
+puzzle:24 
+CPU time              : 0.005284 s
+
+puzzle:25 
+CPU time              : 0.005473 s
+
+puzzle:26 
+CPU time              : 0.005858 s
+
+puzzle:27 
+CPU time              : 0.005543 s
+
+puzzle:28 
+CPU time              : 0.005149 s
+
+puzzle:29 
+CPU time              : 0.00583 s
+
+puzzle:30 
+CPU time              : 0.005641 s
+
+puzzle:31 
+CPU time              : 0.007084 s
+
+puzzle:32 
+CPU time              : 0.005552 s
+
+puzzle:33 
+CPU time              : 0.005043 s
+
+puzzle:34 
+CPU time              : 0.004489 s
+
+puzzle:35 
+CPU time              : 0.00524 s
+
+puzzle:36 
+CPU time              : 0.00444 s
+
+puzzle:37 
+CPU time              : 0.005163 s
+
+puzzle:38 
+CPU time              : 0.004712 s
+
+puzzle:39 
+CPU time              : 0.00538 s
+
+puzzle:40 
+CPU time              : 0.004318 s
+
+puzzle:41 
+CPU time              : 0.006078 s
+
+puzzle:42 
+CPU time              : 0.00551 s
+
+puzzle:43 
+CPU time              : 0.005557 s
+
+puzzle:44 
+CPU time              : 0.006361 s
+
+puzzle:45 
+CPU time              : 0.006436 s
+
+puzzle:46 
+CPU time              : 0.005914 s
+
+puzzle:47 
+CPU time              : 0.007387 s
+
+puzzle:48 
+CPU time              : 0.005878 s
+
+puzzle:49 
+CPU time              : 0.007109 s
+
+puzzle:50 
+CPU time              : 0.005571 s
+

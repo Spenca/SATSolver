@@ -1,19 +1,21 @@
 # SATSolver
  SAT-based Sudoku solver.
 
-**Members**
-Yuki Hayashi 
-Spencer Vatrt-Watts 
-Mohammed Abousaleh
-Zane Li 
+**Members:**<br />
+-Yuki Hayashi <br />
+-Spencer Vatrt-Watts <br />
+-Mohammed Abousaleh<br />
+-Zane Li <br />
 
 
-**Files in Submission**
-README.md
-Report
-sat2sud.py
-sud2sat.py
-test_puzzles.txt
-test_puzzles_script.py
-top95.txt
-top95_script.py
+**Files in Submission:**<br />
+-README.md<br />
+-Report<br />
+-sat2sud.py<br />
+-sud2sat.py<br />
+-test_puzzles.txt<br />
+-test_puzzles_script.py<br />
+-top95.txt<br />
+-top95_script.py<br />
+
+

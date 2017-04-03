@@ -33,10 +33,10 @@ which include the mean, median, variance, and standard deviation.
 <br />
 **sud2sat.py**
 This file is an executable that reads a unsolved Sudoku puzzle in a specified format in a txt file. This generated txt file will be used for the input to the miniSAT solver. 
-To run the sud2say: $ python sud2sat.py <name of test files>.txt 
+To run the sud2say: $ python sud2sat.py < name of test files>.txt 
 Afterwards, a txt file called "sud2satOutput" will be generated
-To run this txt with miniSAT: $ minsat <name of testfile>.txt <name of output file>.txt
-
+To run this txt with miniSAT: $ minsat < name of testfile>.txt < name of output file>.txt
+<br />
 Note: only one sudoku puzzle can be run in the testfile. 
 <br />
 **sat2sud.py**
@@ -47,7 +47,9 @@ Note: only one sudoku puzzle can be run in the testfile.
 <br />
 **test_puzzles_script.py**
 <br />
+
 ## Extended Tasks
+<br />
 **top95.txt**
 <br />
 **top95_script.py**

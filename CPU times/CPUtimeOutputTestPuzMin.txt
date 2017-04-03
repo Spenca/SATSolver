@@ -1,3 +1,5 @@
+average CPU time: 0.00848284210526
+
 puzzle:1 
 CPU time              : 0.004538 s
 

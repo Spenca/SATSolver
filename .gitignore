@@ -12,3 +12,5 @@ test_puzzles_sat2sudOutput
 top95_miniSATOutput
 top95_sat2sudOutput
 Submission_files
+test_puzzles_walksatOutput
+top95_walksatOutput

@@ -9,7 +9,7 @@ def runSolver(s):
 	p = subprocess.Popen(["./walksat",  "-out", "miniSATOutput", "sud2satOutput"], stdout=subprocess.PIPE)
 	out, err = p.communicate()
 
-	f = open('top95_miniSATOutput', 'a')
+	f = open('top95_walksatOutput', 'a')
 	f.write(out)
 	f.close()
 
@@ -20,7 +20,7 @@ def runSolver(s):
 	f.write(out)
 	f.close()
 
-open('top95_miniSATOutput', 'w').close()
+open('top95_walksatOutput', 'w').close()
 open('top95_sat2sudOutput', 'w').close()
 s = ""
 

@@ -3,10 +3,10 @@ SAT-based Sudoku solver for CSC320.
 We finished the basic task and the three extended tasks.  
 
 **Members:**<br />
--Yuki Hayashi <br />
--Spencer Vatrt-Watts <br />
--Mohammed Abousaleh<br />
--Zane Li <br />
+-Yuki Hayashi V00825042<br />
+-Spencer Vatrt-Watts V00818326<br />
+-Mohammed Abousaleh V00812028<br />
+-Zane Li V00825115<br />
 
 
 **Files in Submission:**<br />
@@ -18,6 +18,12 @@ We finished the basic task and the three extended tasks.
 -test_puzzles_script.py<br />
 -top95.txt<br />
 -top95_script.py<br />
+-test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt<br />
+-test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt<br />
+-top95_miniSATOutput-MINIMAL-ENCODING.txt<br />
+-top95_miniSATOutput-EXTENDED-ENCODING.txt<br />
+-test_puzzles_script_walksat.py<br />
+-top95_script_walksat.py<br />
 <br />
 **README**
 This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,
@@ -72,6 +78,33 @@ This txt file includes the hard inputs from <a href="http://magictour.free.fr/to
 <br />
 <br />
 **top95_script.py**
-This file is an executable similar to test_puzzles_script.py, in which the program runs unsolved puzzles from top95.txt and writes the results from miniSAT and puzzle solutions to twi files. 
-
-
+This file is an executable similar to test_puzzles_script.py, in which the program runs unsolved puzzles from top95.txt and writes the results from miniSAT and puzzle solutions to two files.
+<br />
+<br />
+### Second Extended Task
+The second extended task consisted of testing an alternative to miniSAT's minimal encoding. We tested both minimal and extended encoding with miniSAT on test_puzzles.txt and top95.txt, and the results can be found in the following four files.
+<br />
+<br />
+**test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt**
+<br />
+<br />
+**test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt**
+<br />
+<br />
+**top95_miniSATOutput-MINIMAL-ENCODING.txt**
+<br />
+<br />
+**top95_miniSATOutput-EXTENDED-ENCODING.txt**
+<br />
+<br />
+### Third Extended Task
+The third extended task consisted of testing a different SAT-solver. For this task we chose to use walksat, available at <a href="https://www.cs.rochester.edu/u/kautz/walksat/">https://www.cs.rochester.edu/u/kautz/walksat/</a>.
+<br />
+<br />
+**test_puzzles_script_walksat.py**
+This file is an executable that runs unsolved sudoku puzzles from test_puzzles.txt and writes the results from walksat and 
+puzzle solutions to two files.
+<br />
+<br />
+**top95_script_walksat.py**
+This file is an executable similar to test_puzzles_script_walksat.py, in which the program runs unsolved puzzles from top95.txt and writes the results from walksat and puzzle solutions to two files.

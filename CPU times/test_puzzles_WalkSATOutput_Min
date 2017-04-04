@@ -1,0 +1,2938 @@
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 36791630
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      4.28      1.96      2.18      7038       100      7038     7038.00
+         0         0      6.93      3.46      2.01     25735       100     16386    16386.50    13220.78
+         0         0      9.22      3.70      2.49      6334       100     13035    13035.67    11003.58
+         0         0      5.83      2.83      2.06     15396       100     13625    13625.75     9061.56
+         0         0      0.00      0.00      0.00      1871       100     11274    11274.80     9445.57
+         0         0      5.68      2.77      2.05     10270       100     11107    11107.33     8458.33
+         0         0      8.51      2.74      3.10     13346       100     11427    11427.14     7767.58
+         0         0      7.47      2.80      2.67      5040       100     10628    10628.75     7537.60
+         0         0      7.28      3.02      2.41     18132       100     11462    11462.44     7481.24
+         0         0      6.16      3.41      1.80     27133       100     13029    13029.50     8620.14
+
+total elapsed seconds = 0.040000
+average flips per second = 3257375
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 13029
+average flips per assign (over all runs) = 13029.500000
+average seconds per assign (over all runs) = 0.004000
+mean flips until assign = 13029.500000
+  variance = 74306812.055556
+  standard deviation = 8620.139909
+  standard error of mean = 2725.927586
+mean seconds until assign = 0.004000
+  variance = 0.000007
+  standard deviation = 0.002646
+  standard error of mean = 0.000837
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.816324
+      overall mean meanbad std deviation = 2.966442
+      overall ratio mean numbad to mean std dev = 2.297812
+    statistics on successful runs:
+      successful mean average numbad = 6.816324
+      successful mean numbad std deviation = 2.966442
+      successful ratio mean numbad to mean std dev = 2.297812
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 36898171
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      8.35      4.17      2.00     22327       100     22327    22327.00
+         0         0      7.53      3.77      1.99     88775       100     55551    55551.00    46985.83
+         0         0      4.92      2.65      1.86     11724       100     40942    40942.00    41762.46
+         0         0      7.05      3.22      2.19     18400       100     35306    35306.50    35913.38
+         0         0      7.84      3.70      2.12     65461       100     41337    41337.40    33899.66
+         0         0      5.65      2.98      1.90      9971       100     36109    36109.67    32913.90
+         0         0      7.34      2.92      2.51      8116       100     32110    32110.57    31854.67
+         0         0      9.10      4.36      2.09     36123       100     32612    32612.12    29525.79
+         0         0      7.31      3.28      2.23     27064       100     31995    31995.67    27680.70
+         0         0      5.84      3.29      1.78     17331       100     30529    30529.20    26506.42
+
+total elapsed seconds = 0.080000
+average flips per second = 3816150
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 30529
+average flips per assign (over all runs) = 30529.200000
+average seconds per assign (over all runs) = 0.008000
+mean flips until assign = 30529.200000
+  variance = 702590534.177778
+  standard deviation = 26506.424394
+  standard error of mean = 8382.067371
+mean seconds until assign = 0.008000
+  variance = 0.000048
+  standard deviation = 0.006946
+  standard error of mean = 0.002196
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.092080
+      overall mean meanbad std deviation = 3.434756
+      overall ratio mean numbad to mean std dev = 2.064799
+    statistics on successful runs:
+      successful mean average numbad = 7.092080
+      successful mean numbad std deviation = 3.434756
+      successful ratio mean numbad to mean std dev = 2.064799
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 37042233
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      6.08      3.37      1.80     51913       100     51913    51913.00
+         0         0      6.49      3.31      1.96     31028       100     41470    41470.50    14767.93
+         0         0      7.00      3.67      1.90     99707       100     60882    60882.67    35207.14
+         0         0      7.20      3.82      1.88     58048       100     60174    60174.00    28781.43
+         0         0      7.63      3.45      2.21      7085       100     49556    49556.20    34423.34
+         1         5      7.56      4.03      1.88    100000        83     49556    49556.20    34423.34
+         1         8      7.62      3.85      1.98    100000        71     49556    49556.20    34423.34
+         1         5      6.99      3.78      1.85    100000        62     49556    49556.20    34423.34
+         0         0      7.49      3.74      2.00     93416        66     56866   106866.17   143716.97
+         1         6      7.25      3.82      1.90    100000        60     56866   106866.17   143716.97
+
+total elapsed seconds = 0.180000
+average flips per second = 4117761
+number solutions found = 6
+final success rate = 60.000000
+average length successful tries = 56866
+average flips per assign (over all runs) = 123532.833333
+average seconds per assign (over all runs) = 0.030000
+mean flips until assign = 106866.166667
+  variance = 20654566663.766666
+  standard deviation = 143716.967209
+  standard error of mean = 58672.206174
+mean seconds until assign = 0.025952
+  variance = 0.001218
+  standard deviation = 0.034902
+  standard error of mean = 0.014249
+mean restarts until assign = 1.500000
+  variance = 1.500000
+  standard deviation = 1.224745
+  standard error of mean = 0.500000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.131233
+      overall mean meanbad std deviation = 3.685585
+      overall ratio mean numbad to mean std dev = 1.934898
+    statistics on successful runs:
+      successful mean average numbad = 6.981545
+      successful mean numbad std deviation = 3.562330
+      successful ratio mean numbad to mean std dev = 1.959825
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.355764
+      nonsuccessful mean numbad std deviation = 3.870468
+      nonsuccessful ratio mean numbad to mean std dev = 1.900484
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 37301133
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.59      3.10      1.80     31428       100     31428    31428.00
+         0         0      7.98      3.76      2.12     26327       100     28877    28877.50     3606.95
+         0         0      5.33      2.94      1.82     34364       100     30706    30706.33     4066.81
+         1        10      5.74      3.42      1.68    100000        75     30706    30706.33     4066.81
+         0         0      0.00      0.00      0.00      1853        80     23493    48493.00    35727.97
+         0         0      5.93      3.31      1.79     37362        83     26266    46266.80    31339.21
+         0         0      6.21      3.35      1.86     29476        85     26801    43468.33    28856.63
+         0         0      6.14      3.12      1.97     21260        87     26010    40295.71    27647.41
+         0         0      4.93      2.54      1.94     12610        88     24335    36835.00    27404.28
+         0         0      5.45      2.94      1.86     13890        90     23174    34285.56    26751.03
+
+total elapsed seconds = 0.070000
+average flips per second = 4408142
+number solutions found = 9
+final success rate = 90.000000
+average length successful tries = 23174
+average flips per assign (over all runs) = 34285.555556
+average seconds per assign (over all runs) = 0.007778
+mean flips until assign = 34285.555556
+  variance = 715617470.027778
+  standard deviation = 26751.027457
+  standard error of mean = 8917.009152
+mean seconds until assign = 0.007778
+  variance = 0.000037
+  standard deviation = 0.006069
+  standard error of mean = 0.002023
+mean restarts until assign = 1.111111
+  variance = 0.111111
+  standard deviation = 0.333333
+  standard error of mean = 0.111111
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 5.921765
+      overall mean meanbad std deviation = 3.163659
+      overall ratio mean numbad to mean std dev = 1.871809
+    statistics on successful runs:
+      successful mean average numbad = 5.944977
+      successful mean numbad std deviation = 3.131841
+      successful ratio mean numbad to mean std dev = 1.898237
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 5.736073
+      nonsuccessful mean numbad std deviation = 3.418205
+      nonsuccessful ratio mean numbad to mean std dev = 1.678095
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 37453687
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8865, numliterals = 18261
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      0.00      0.00      0.00      1720       100      1720     1720.00
+         0         0      0.00      0.00      0.00      2550       100      2135     2135.00      586.90
+         0         0      0.00      0.00      0.00      1143       100      1804     1804.33      707.28
+         0         0      0.00      0.00      0.00      1657       100      1767     1767.50      582.17
+         0         0      0.00      0.00      0.00      1184       100      1650     1650.80      567.70
+         0         0      0.00      0.00      0.00      1381       100      1605     1605.83      519.58
+         0         0      0.00      0.00      0.00       974       100      1515     1515.57      531.04
+         0         0      0.00      0.00      0.00      1470       100      1509     1509.88      491.91
+         0         0      0.00      0.00      0.00      2211       100      1587     1587.78      516.09
+         0         0      0.00      0.00      0.00       863       100      1515     1515.30      537.85
+
+total elapsed seconds = 0.010000
+average flips per second = 1515300
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 1515
+average flips per assign (over all runs) = 1515.300000
+average seconds per assign (over all runs) = 0.001000
+mean flips until assign = 1515.300000
+  variance = 289282.233333
+  standard deviation = 537.849638
+  standard error of mean = 170.082990
+mean seconds until assign = 0.001000
+  variance = 0.000000
+  standard deviation = 0.000355
+  standard error of mean = 0.000112
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 37553966
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8853, numliterals = 18249
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        18      7.90      4.22      1.87    100000         0
+         1        12      9.05      4.45      2.04    100000         0
+         1         9      8.96      4.33      2.07    100000         0
+         0         0      6.90      3.46      1.99     45626        25     45626   345626.00
+         1         8      9.81      4.50      2.18    100000        20     45626   345626.00
+         1        14      8.00      3.70      2.16    100000        16     45626   345626.00
+         1         8      9.21      4.33      2.13    100000        14     45626   345626.00
+         1         4      9.89      4.23      2.34    100000        12     45626   345626.00
+         0         0      8.23      4.42      1.86     99511        22     72568   422568.50   108813.13
+         1        13     10.73      4.52      2.37    100000        20     72568   422568.50   108813.13
+
+total elapsed seconds = 0.230000
+average flips per second = 4109291
+number solutions found = 2
+final success rate = 20.000000
+average length successful tries = 72568
+average flips per assign (over all runs) = 472568.500000
+average seconds per assign (over all runs) = 0.115000
+mean flips until assign = 422568.500000
+  variance = 11840296612.500000
+  standard deviation = 108813.127023
+  standard error of mean = 76942.500000
+mean seconds until assign = 0.102832
+  variance = 0.000701
+  standard deviation = 0.026480
+  standard error of mean = 0.018724
+mean restarts until assign = 4.500000
+  variance = 0.500000
+  standard deviation = 0.707107
+  standard error of mean = 0.500000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.865961
+      overall mean meanbad std deviation = 4.215228
+      overall ratio mean numbad to mean std dev = 2.103317
+    statistics on successful runs:
+      successful mean average numbad = 7.560194
+      successful mean numbad std deviation = 3.941159
+      successful ratio mean numbad to mean std dev = 1.918267
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 9.192403
+      nonsuccessful mean numbad std deviation = 4.283746
+      nonsuccessful ratio mean numbad to mean std dev = 2.145880
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 37874724
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0     10.79      4.98      2.17      5902       100      5902     5902.00
+         1         6      7.70      4.21      1.83    100000        50      5902     5902.00
+         0         0      8.05      3.92      2.06     27275        66     16588    66588.50    85823.67
+         1         4      7.96      4.13      1.93    100000        50     16588    66588.50    85823.67
+         0         0      7.79      3.68      2.11     43390        60     25522    92189.00    75159.88
+         0         0      7.90      4.03      1.96     45580        66     30536    80536.75    65643.77
+         0         0      8.28      4.02      2.06     23091        71     29047    69047.60    62384.55
+         1        14      8.53      4.11      2.08    100000        62     29047    69047.60    62384.55
+         0         0      8.52      3.87      2.20     89885        66     39187    89187.17    74478.71
+         1         8      7.69      3.79      2.03    100000        60     39187    89187.17    74478.71
+
+total elapsed seconds = 0.170000
+average flips per second = 3736017
+number solutions found = 6
+final success rate = 60.000000
+average length successful tries = 39187
+average flips per assign (over all runs) = 105853.833333
+average seconds per assign (over all runs) = 0.028333
+mean flips until assign = 89187.166667
+  variance = 5547078209.366666
+  standard deviation = 74478.709772
+  standard error of mean = 30405.805941
+mean seconds until assign = 0.023872
+  variance = 0.000397
+  standard deviation = 0.019935
+  standard error of mean = 0.008139
+mean restarts until assign = 1.500000
+  variance = 0.300000
+  standard deviation = 0.547723
+  standard error of mean = 0.223607
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.321060
+      overall mean meanbad std deviation = 4.072988
+      overall ratio mean numbad to mean std dev = 2.042986
+    statistics on successful runs:
+      successful mean average numbad = 8.555736
+      successful mean numbad std deviation = 4.082902
+      successful ratio mean numbad to mean std dev = 2.095504
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.969045
+      nonsuccessful mean numbad std deviation = 4.058118
+      nonsuccessful ratio mean numbad to mean std dev = 1.963729
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38113037
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8865, numliterals = 18261
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      0.00      0.00      0.00      1877       100      1877     1877.00
+         0         0      0.00      0.00      0.00      1563       100      1720     1720.00      222.03
+         0         0      0.00      0.00      0.00      1565       100      1668     1668.33      180.71
+         0         0      0.00      0.00      0.00      2236       100      1810     1810.25      319.90
+         0         0      0.00      0.00      0.00      2051       100      1858     1858.40      297.22
+         0         0      8.13      4.05      2.01      7149       100      2740     2740.17     2176.18
+         0         0      0.00      0.00      0.00      1655       100      2585     2585.14     2028.47
+         0         0      0.00      0.00      0.00      1141       100      2404     2404.62     1946.17
+         0         0      0.00      0.00      0.00      1522       100      2306     2306.56     1844.09
+         0         0      5.13      2.30      2.23      3558       100      2431     2431.70     1783.10
+
+total elapsed seconds = 0.010000
+average flips per second = 2431700
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 2431
+average flips per assign (over all runs) = 2431.700000
+average seconds per assign (over all runs) = 0.001000
+mean flips until assign = 2431.700000
+  variance = 3179436.233333
+  standard deviation = 1783.097371
+  standard error of mean = 563.864898
+mean seconds until assign = 0.001000
+  variance = 0.000001
+  standard deviation = 0.000733
+  standard error of mean = 0.000232
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.631284
+      overall mean meanbad std deviation = 3.177982
+      overall ratio mean numbad to mean std dev = 2.086634
+    statistics on successful runs:
+      successful mean average numbad = 6.631284
+      successful mean numbad std deviation = 3.177982
+      successful ratio mean numbad to mean std dev = 2.086634
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38196896
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      9.26      4.19      2.21     76480       100     76480    76480.00
+         0         0      9.31      4.02      2.31     75665       100     76072    76072.50      576.29
+         0         0      9.52      4.15      2.30     34100       100     62081    62081.67    24236.26
+         1        11      9.65      4.49      2.15    100000        75     62081    62081.67    24236.26
+         1         5      8.93      4.41      2.02    100000        60     62081    62081.67    24236.26
+         0         0      8.04      3.96      2.03     44653        66     57724   107724.50    93405.94
+         0         0      7.63      3.05      2.50      4220        71     47023    87023.60    93199.46
+         1         5      8.63      3.87      2.23    100000        62     47023    87023.60    93199.46
+         1         4      8.71      4.14      2.10    100000        55     47023    87023.60    93199.46
+         1         9      9.47      4.07      2.33    100000        50     47023    87023.60    93199.46
+
+total elapsed seconds = 0.190000
+average flips per second = 3869042
+number solutions found = 5
+final success rate = 50.000000
+average length successful tries = 47023
+average flips per assign (over all runs) = 147023.600000
+average seconds per assign (over all runs) = 0.038000
+mean flips until assign = 87023.600000
+  variance = 8686139162.299997
+  standard deviation = 93199.459024
+  standard error of mean = 41680.065169
+mean seconds until assign = 0.022492
+  variance = 0.000580
+  standard deviation = 0.024089
+  standard error of mean = 0.010773
+mean restarts until assign = 1.400000
+  variance = 0.800000
+  standard deviation = 0.894427
+  standard error of mean = 0.400000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.914099
+      overall mean meanbad std deviation = 4.034435
+      overall ratio mean numbad to mean std dev = 2.209503
+    statistics on successful runs:
+      successful mean average numbad = 8.751982
+      successful mean numbad std deviation = 3.873188
+      successful ratio mean numbad to mean std dev = 2.259633
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 9.076215
+      nonsuccessful mean numbad std deviation = 4.195683
+      nonsuccessful ratio mean numbad to mean std dev = 2.163227
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38462544
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      9.34      3.98      2.35     33964       100     33964    33964.00
+         1         9      8.91      4.30      2.07    100000        50     33964    33964.00
+         1         9      7.84      4.12      1.90    100000        33     33964    33964.00
+         0         0      4.96      2.87      1.72      6707        50     20335   120335.50   122147.75
+         0         0      7.42      4.07      1.82     79171        60     39947   106614.00    89581.66
+         1        11      6.29      3.34      1.88    100000        50     39947   106614.00    89581.66
+         1        15      8.04      4.00      2.01    100000        42     39947   106614.00    89581.66
+         1        10      7.66      4.03      1.90    100000        37     39947   106614.00    89581.66
+         1         2      8.54      3.72      2.29    100000        33     39947   106614.00    89581.66
+         1         2      8.41      4.12      2.04    100000        30     39947   106614.00    89581.66
+
+total elapsed seconds = 0.200000
+average flips per second = 4099210
+number solutions found = 3
+final success rate = 30.000000
+average length successful tries = 39947
+average flips per assign (over all runs) = 273280.666667
+average seconds per assign (over all runs) = 0.066667
+mean flips until assign = 106614.000000
+  variance = 8024874699.000000
+  standard deviation = 89581.664971
+  standard error of mean = 51719.998386
+mean seconds until assign = 0.026008
+  variance = 0.000478
+  standard deviation = 0.021853
+  standard error of mean = 0.012617
+mean restarts until assign = 1.666667
+  variance = 1.333333
+  standard deviation = 1.154701
+  standard error of mean = 0.666667
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.741389
+      overall mean meanbad std deviation = 3.854485
+      overall ratio mean numbad to mean std dev = 2.008411
+    statistics on successful runs:
+      successful mean average numbad = 7.238865
+      successful mean numbad std deviation = 3.641349
+      successful ratio mean numbad to mean std dev = 1.987963
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.956756
+      nonsuccessful mean numbad std deviation = 3.945829
+      nonsuccessful ratio mean numbad to mean std dev = 2.016498
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38735398
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.82      3.20      1.82     28758       100     28758    28758.00
+         0         0      5.63      3.07      1.83      4838       100     16798    16798.00    16913.99
+         0         0      7.28      3.92      1.85     86881       100     40159    40159.00    42193.02
+         0         0      7.50      3.76      1.99     30266       100     37685    37685.75    34803.76
+         0         0      8.12      3.98      2.04     59695       100     42087    42087.60    31707.37
+         0         0      7.85      3.72      2.11     20934       100     38562    38562.00    29645.66
+         0         0      7.78      3.27      2.38     18391       100     35680    35680.43    28116.04
+         0         0      7.36      3.59      2.05     25449       100     34401    34401.50    26280.54
+         0         0      6.26      3.39      1.84     26465       100     33519    33519.67    24725.13
+         0         0      3.86      1.68      2.29      4862       100     30653    30653.90    25010.65
+
+total elapsed seconds = 0.070000
+average flips per second = 4379128
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 30653
+average flips per assign (over all runs) = 30653.900000
+average seconds per assign (over all runs) = 0.007000
+mean flips until assign = 30653.900000
+  variance = 625532556.100000
+  standard deviation = 25010.648854
+  standard error of mean = 7909.061614
+mean seconds until assign = 0.007000
+  variance = 0.000033
+  standard deviation = 0.005711
+  standard error of mean = 0.001806
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.745085
+      overall mean meanbad std deviation = 3.358825
+      overall ratio mean numbad to mean std dev = 2.008168
+    statistics on successful runs:
+      successful mean average numbad = 6.745085
+      successful mean numbad std deviation = 3.358825
+      successful ratio mean numbad to mean std dev = 2.008168
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38892816
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      4.91      2.66      1.85      8529       100      8529     8529.00
+         0         0      8.36      4.43      1.89     21318       100     14923    14923.50     9043.19
+         0         0      8.96      3.93      2.28      4983       100     11610    11610.00     8592.29
+         0         0      8.09      4.09      1.98     17402       100     13058    13058.00     7589.80
+         0         0      8.43      3.80      2.22     11916       100     12829    12829.60     6592.78
+         0         0      8.04      2.89      2.78     15407       100     13259    13259.17     5989.90
+         0         0      0.00      0.00      0.00      2801       100     11765    11765.14     6747.14
+         0         0      8.95      4.59      1.95      9382       100     11467    11467.25     6303.20
+         0         0      3.88      1.80      2.15      3208       100     10549    10549.56     6507.19
+         0         0      5.19      2.75      1.89      7579       100     10252    10252.50     6206.54
+
+total elapsed seconds = 0.030000
+average flips per second = 3417500
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 10252
+average flips per assign (over all runs) = 10252.500000
+average seconds per assign (over all runs) = 0.003000
+mean flips until assign = 10252.500000
+  variance = 38521114.500000
+  standard deviation = 6206.538045
+  standard error of mean = 1962.679661
+mean seconds until assign = 0.003000
+  variance = 0.000003
+  standard deviation = 0.001816
+  standard error of mean = 0.000574
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.201062
+      overall mean meanbad std deviation = 3.437541
+      overall ratio mean numbad to mean std dev = 2.094829
+    statistics on successful runs:
+      successful mean average numbad = 7.201062
+      successful mean numbad std deviation = 3.437541
+      successful ratio mean numbad to mean std dev = 2.094829
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 38994047
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8856, numliterals = 18252
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        11      7.17      3.63      1.98    100000         0
+         0         0      7.37      3.87      1.90     86540        50     86540   186540.00
+         0         0      8.74      5.12      1.71     13910        66     50225   100225.00   122067.84
+         0         0      6.14      3.28      1.87     15755        75     38735    72068.33    99139.66
+         1         6      8.24      4.24      1.94    100000        60     38735    72068.33    99139.66
+         0         0      6.84      3.95      1.73     29683        66     36472    86472.00    85920.38
+         0         0      6.92      3.52      1.97     17887        71     32755    72755.00    80483.00
+         0         0      6.02      3.30      1.82     16717        75     30082    63415.33    75534.01
+         0         0      6.38      3.41      1.87     74812        77     36472    65043.43    69087.22
+         0         0      7.76      3.90      1.99     13407        80     33588    58588.88    66516.70
+
+total elapsed seconds = 0.110000
+average flips per second = 4261009
+number solutions found = 8
+final success rate = 80.000000
+average length successful tries = 33588
+average flips per assign (over all runs) = 58588.875000
+average seconds per assign (over all runs) = 0.013750
+mean flips until assign = 58588.875000
+  variance = 4424470839.267858
+  standard deviation = 66516.695944
+  standard error of mean = 23517.203382
+mean seconds until assign = 0.013750
+  variance = 0.000244
+  standard deviation = 0.015611
+  standard error of mean = 0.005519
+mean restarts until assign = 1.250000
+  variance = 0.214286
+  standard deviation = 0.462910
+  standard error of mean = 0.163663
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.159505
+      overall mean meanbad std deviation = 3.823199
+      overall ratio mean numbad to mean std dev = 1.872648
+    statistics on successful runs:
+      successful mean average numbad = 7.023266
+      successful mean numbad std deviation = 3.795002
+      successful ratio mean numbad to mean std dev = 1.850662
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.704461
+      nonsuccessful mean numbad std deviation = 3.935985
+      nonsuccessful ratio mean numbad to mean std dev = 1.957442
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39173597
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8856, numliterals = 18252
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      7.10      4.35      1.63     18089       100     18089    18089.00
+         0         0      6.78      3.58      1.89     14152       100     16120    16120.50     2783.88
+         0         0      9.81      3.95      2.49     25074       100     19105    19105.00     5531.43
+         0         0      7.63      3.76      2.03     22606       100     19980    19980.25     4843.76
+         1         9      8.95      4.17      2.15    100000        80     19980    19980.25     4843.76
+         1         9      7.32      3.94      1.86    100000        66     19980    19980.25     4843.76
+         0         0      7.59      3.45      2.20     33421        71     22668    62668.40    95545.73
+         1         4      7.34      3.66      2.00    100000        62     22668    62668.40    95545.73
+         0         0      6.68      3.76      1.78     56258        66     28266    78266.67    93611.03
+         1         8      7.27      3.83      1.90    100000        60     28266    78266.67    93611.03
+
+total elapsed seconds = 0.140000
+average flips per second = 4068571
+number solutions found = 6
+final success rate = 60.000000
+average length successful tries = 28266
+average flips per assign (over all runs) = 94933.333333
+average seconds per assign (over all runs) = 0.023333
+mean flips until assign = 78266.666667
+  variance = 8763025375.066666
+  standard deviation = 93611.032336
+  standard error of mean = 38216.543920
+mean seconds until assign = 0.019237
+  variance = 0.000529
+  standard deviation = 0.023008
+  standard error of mean = 0.009393
+mean restarts until assign = 1.500000
+  variance = 0.700000
+  standard deviation = 0.836660
+  standard error of mean = 0.341565
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.646604
+      overall mean meanbad std deviation = 3.845811
+      overall ratio mean numbad to mean std dev = 1.988294
+    statistics on successful runs:
+      successful mean average numbad = 7.597174
+      successful mean numbad std deviation = 3.808894
+      successful ratio mean numbad to mean std dev = 1.994588
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.720749
+      nonsuccessful mean numbad std deviation = 3.901186
+      nonsuccessful ratio mean numbad to mean std dev = 1.979077
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39389292
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         9      7.49      4.09      1.83    100000         0
+         0         0      7.08      3.75      1.89     83031        50     83031   183031.00
+         0         0      8.52      4.60      1.85     43284        66     63157   113157.50    98816.05
+         1         4      7.61      4.05      1.88    100000        50     63157   113157.50    98816.05
+         0         0      7.54      3.85      1.96     94306        60     73540   140207.00    84126.88
+         0         0      9.67      4.36      2.22      9672        66     57573   107573.25    94752.67
+         1         5      7.38      4.16      1.77    100000        57     57573   107573.25    94752.67
+         0         0      7.33      4.41      1.66     42629        62     54584   114584.40    83542.40
+         0         0      8.53      4.29      1.99     27010        66     49988    99988.67    82835.25
+         0         0      8.10      4.61      1.76     72571        70     53214    96071.86    76324.67
+
+total elapsed seconds = 0.170000
+average flips per second = 3955899
+number solutions found = 7
+final success rate = 70.000000
+average length successful tries = 53214
+average flips per assign (over all runs) = 96071.857143
+average seconds per assign (over all runs) = 0.024286
+mean flips until assign = 96071.857143
+  variance = 5825455079.142856
+  standard deviation = 76324.668877
+  standard error of mean = 28848.013250
+mean seconds until assign = 0.024286
+  variance = 0.000372
+  standard deviation = 0.019294
+  standard error of mean = 0.007292
+mean restarts until assign = 1.428571
+  variance = 0.285714
+  standard deviation = 0.534522
+  standard error of mean = 0.202031
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.923379
+      overall mean meanbad std deviation = 4.217499
+      overall ratio mean numbad to mean std dev = 1.878691
+    statistics on successful runs:
+      successful mean average numbad = 8.108486
+      successful mean numbad std deviation = 4.267682
+      successful ratio mean numbad to mean std dev = 1.899974
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.491464
+      nonsuccessful mean numbad std deviation = 4.100405
+      nonsuccessful ratio mean numbad to mean std dev = 1.827006
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39640014
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8865, numliterals = 18261
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      0.00      0.00      0.00      1034       100      1034     1034.00
+         0         0      0.00      0.00      0.00      1603       100      1318     1318.50      402.34
+         0         0      0.00      0.00      0.00      2814       100      1817     1817.00      909.09
+         0         0      0.00      0.00      0.00      1046       100      1624     1624.25      836.41
+         0         0      0.00      0.00      0.00      2937       100      1886     1886.80      932.39
+         0         0      0.00      0.00      0.00       671       100      1684     1684.17      970.48
+         0         0      0.00      0.00      0.00      1642       100      1678     1678.14      886.07
+         0         0      0.00      0.00      0.00      1324       100      1633     1633.88      829.84
+         0         0      0.00      0.00      0.00       884       100      1550     1550.56      815.50
+         0         0      0.00      0.00      0.00      2125       100      1608     1608.00      790.03
+
+total elapsed seconds = 0.010000
+average flips per second = 1608000
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 1608
+average flips per assign (over all runs) = 1608.000000
+average seconds per assign (over all runs) = 0.001000
+mean flips until assign = 1608.000000
+  variance = 624140.888889
+  standard deviation = 790.025879
+  standard error of mean = 249.828119
+mean seconds until assign = 0.001000
+  variance = 0.000000
+  standard deviation = 0.000491
+  standard error of mean = 0.000155
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39715390
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8865, numliterals = 18261
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      0.00      0.00      0.00      1753       100      1753     1753.00
+         0         0      0.00      0.00      0.00       927       100      1340     1340.00      584.07
+         0         0      0.00      0.00      0.00      2315       100      1665     1665.00      698.17
+         0         0      0.00      0.00      0.00      1299       100      1573     1573.50      598.71
+         0         0      0.00      0.00      0.00       848       100      1428     1428.40      611.64
+         0         0      0.00      0.00      0.00      1932       100      1512     1512.33      584.43
+         0         0      0.00      0.00      0.00      1620       100      1527     1527.71      535.06
+         0         0      0.00      0.00      0.00      2188       100      1610     1610.25      547.62
+         0         0      0.00      0.00      0.00      1348       100      1581     1581.11      519.65
+         0         0      0.00      0.00      0.00       896       100      1512     1512.60      535.70
+
+total elapsed seconds = 0.010000
+average flips per second = 1512600
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 1512
+average flips per assign (over all runs) = 1512.600000
+average seconds per assign (over all runs) = 0.001000
+mean flips until assign = 1512.600000
+  variance = 286974.266667
+  standard deviation = 535.699792
+  standard error of mean = 169.403148
+mean seconds until assign = 0.001000
+  variance = 0.000000
+  standard deviation = 0.000354
+  standard error of mean = 0.000112
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39789054
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8858, numliterals = 18254
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      4.31      2.09      2.06      3697       100      3697     3697.00
+         0         0      5.90      2.70      2.19      6016       100      4856     4856.50     1639.78
+         0         0      7.96      4.57      1.74      8612       100      6108     6108.33     2458.80
+         0         0      6.59      3.35      1.97      9328       100      6913     6913.25     2573.33
+         0         0      9.12      4.01      2.27      8835       100      7297     7297.60     2388.55
+         0         0      5.71      2.93      1.95      6412       100      7150     7150.00     2166.76
+         0         0      5.87      3.36      1.75     32165       100     10723    10723.57     9659.46
+         0         0      6.40      4.20      1.52     20869       100     11991    11991.75     9635.46
+         0         0      6.93      3.19      2.17     11413       100     11927    11927.44     9015.21
+         0         0      6.12      3.19      1.92     17483       100     12483    12483.00     8679.29
+
+total elapsed seconds = 0.030000
+average flips per second = 4161000
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 12483
+average flips per assign (over all runs) = 12483.000000
+average seconds per assign (over all runs) = 0.003000
+mean flips until assign = 12483.000000
+  variance = 75330057.333333
+  standard deviation = 8679.288988
+  standard error of mean = 2744.632167
+mean seconds until assign = 0.003000
+  variance = 0.000004
+  standard deviation = 0.002086
+  standard error of mean = 0.000660
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.491001
+      overall mean meanbad std deviation = 3.359705
+      overall ratio mean numbad to mean std dev = 1.932015
+    statistics on successful runs:
+      successful mean average numbad = 6.491001
+      successful mean numbad std deviation = 3.359705
+      successful ratio mean numbad to mean std dev = 1.932015
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39895020
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      9.05      3.82      2.37      3618       100      3618     3618.00
+         0         0      7.55      3.17      2.38     25567       100     14592    14592.50    15520.29
+         0         0      6.67      3.63      1.84      5036       100     11407    11407.00    12283.40
+         0         0      6.68      3.69      1.81     10987       100     11302    11302.00    10031.55
+         0         0      0.00      0.00      0.00      2873       100      9616     9616.20     9470.14
+         0         0      8.99      3.19      2.82      4095       100      8696     8696.00     8765.13
+         0         0     10.11      5.04      2.01      5511       100      8241     8241.00     8091.48
+         0         0      9.03      2.86      3.16      5167       100      7856     7856.75     7569.68
+         0         0     10.83      4.55      2.38      5551       100      7600     7600.56     7122.38
+         0         0      0.00      0.00      0.00      1150       100      6955     6955.50     7018.04
+
+total elapsed seconds = 0.020000
+average flips per second = 3477750
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 6955
+average flips per assign (over all runs) = 6955.500000
+average seconds per assign (over all runs) = 0.002000
+mean flips until assign = 6955.500000
+  variance = 49252815.611111
+  standard deviation = 7018.035025
+  standard error of mean = 2219.297538
+mean seconds until assign = 0.002000
+  variance = 0.000004
+  standard deviation = 0.002018
+  standard error of mean = 0.000638
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.613398
+      overall mean meanbad std deviation = 3.742949
+      overall ratio mean numbad to mean std dev = 2.301233
+    statistics on successful runs:
+      successful mean average numbad = 8.613398
+      successful mean numbad std deviation = 3.742949
+      successful ratio mean numbad to mean std dev = 2.301233
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 39983861
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.55      3.03      1.83     33479       100     33479    33479.00
+         0         0      5.49      2.94      1.87     12733       100     23106    23106.00    14669.64
+         0         0      6.53      3.48      1.88     19675       100     21962    21962.33    10560.45
+         0         0      0.00      0.00      0.00      2711       100     17149    17149.50    12922.93
+         0         0      4.55      2.45      1.86     15536       100     16826    16826.80    11214.82
+         0         0      8.31      4.07      2.04     23784       100     17986    17986.33    10425.21
+         0         0      7.30      3.58      2.04     22380       100     18614    18614.00     9660.67
+         0         0      6.52      3.50      1.86     39553       100     21231    21231.38    11610.39
+         0         0      0.00      0.00      0.00      1753       100     19067    19067.11    12653.35
+         0         0      5.03      2.56      1.96     14118       100     18572    18572.20    12031.92
+
+total elapsed seconds = 0.050000
+average flips per second = 3714440
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 18572
+average flips per assign (over all runs) = 18572.200000
+average seconds per assign (over all runs) = 0.005000
+mean flips until assign = 18572.200000
+  variance = 144766982.400000
+  standard deviation = 12031.915159
+  standard error of mean = 3804.825652
+mean seconds until assign = 0.005000
+  variance = 0.000010
+  standard deviation = 0.003239
+  standard error of mean = 0.001024
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.160983
+      overall mean meanbad std deviation = 3.201385
+      overall ratio mean numbad to mean std dev = 1.924474
+    statistics on successful runs:
+      successful mean average numbad = 6.160983
+      successful mean numbad std deviation = 3.201385
+      successful ratio mean numbad to mean std dev = 1.924474
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 40097894
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.79      3.39      1.71     17563       100     17563    17563.00
+         0         0      6.64      3.29      2.02     33782       100     25672    25672.50    11468.56
+         1         5      6.50      3.65      1.78    100000        66     25672    25672.50    11468.56
+         0         0     12.40      4.61      2.69      4676        75     18673    52007.00    46327.98
+         0         0      7.38      3.83      1.93     33769        80     22447    47447.50    38910.29
+         0         0      7.09      3.51      2.02     15971        83     21152    41152.20    36519.34
+         0         0      6.52      3.23      2.02     23050        85     21468    38135.17    33489.47
+         0         0      0.00      0.00      0.00      2515        87     18760    33046.57    33404.75
+         0         0      4.69      2.47      1.90     20650        88     18997    31497.00    31235.80
+         0         0      7.14      4.02      1.78     40339        90     21368    32479.44    29366.69
+
+total elapsed seconds = 0.070000
+average flips per second = 4175928
+number solutions found = 9
+final success rate = 90.000000
+average length successful tries = 21368
+average flips per assign (over all runs) = 32479.444444
+average seconds per assign (over all runs) = 0.007778
+mean flips until assign = 32479.444444
+  variance = 862402751.777778
+  standard deviation = 29366.694601
+  standard error of mean = 9788.898200
+mean seconds until assign = 0.007778
+  variance = 0.000049
+  standard deviation = 0.007032
+  standard error of mean = 0.002344
+mean restarts until assign = 1.111111
+  variance = 0.111111
+  standard deviation = 0.333333
+  standard error of mean = 0.111111
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.128394
+      overall mean meanbad std deviation = 3.554270
+      overall ratio mean numbad to mean std dev = 2.005586
+    statistics on successful runs:
+      successful mean average numbad = 7.206414
+      successful mean numbad std deviation = 3.542457
+      successful ratio mean numbad to mean std dev = 2.034298
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 6.504237
+      nonsuccessful mean numbad std deviation = 3.648772
+      nonsuccessful ratio mean numbad to mean std dev = 1.782582
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 40239483
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0     10.01      4.41      2.27     21702       100     21702    21702.00
+         1         6      6.88      4.08      1.69    100000        50     21702    21702.00
+         1        13      6.60      3.77      1.75    100000        33     21702    21702.00
+         1         2      7.01      3.75      1.87    100000        25     21702    21702.00
+         0         0      8.49      4.58      1.85     39186        40     30444   180444.00   224495.09
+         1         7      7.34      3.96      1.86    100000        33     30444   180444.00   224495.09
+         0         0      4.48      2.06      2.17      6602        42     22496   155830.00   164367.18
+         0         0      6.14      2.83      2.17      4358        50     17962   117962.00   154100.58
+         1        18      7.68      4.36      1.76    100000        44     17962   117962.00   154100.58
+         1         3      6.70      4.01      1.67    100000        40     17962   117962.00   154100.58
+
+total elapsed seconds = 0.170000
+average flips per second = 3952047
+number solutions found = 4
+final success rate = 40.000000
+average length successful tries = 17962
+average flips per assign (over all runs) = 167962.000000
+average seconds per assign (over all runs) = 0.042500
+mean flips until assign = 117962.000000
+  variance = 23746988064.000000
+  standard deviation = 154100.577754
+  standard error of mean = 77050.288877
+mean seconds until assign = 0.029848
+  variance = 0.001520
+  standard deviation = 0.038993
+  standard error of mean = 0.019496
+mean restarts until assign = 2.000000
+  variance = 2.000000
+  standard deviation = 1.414214
+  standard error of mean = 0.707107
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.133424
+      overall mean meanbad std deviation = 3.781297
+      overall ratio mean numbad to mean std dev = 1.886502
+    statistics on successful runs:
+      successful mean average numbad = 7.279249
+      successful mean numbad std deviation = 3.472583
+      successful ratio mean numbad to mean std dev = 2.096206
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.036206
+      nonsuccessful mean numbad std deviation = 3.987106
+      nonsuccessful ratio mean numbad to mean std dev = 1.764740
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 40476751
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      9.90      5.13      1.93      7714       100      7714     7714.00
+         0         0      6.02      3.66      1.64     46930       100     27322    27322.00    27729.90
+         0         0      6.66      2.99      2.22      8238       100     20960    20960.67    22491.63
+         0         0      7.54      4.10      1.84     42862       100     26436    26436.00    21381.44
+         0         0      9.15      3.28      2.79      5733       100     22295    22295.40    20702.59
+         0         0      4.13      1.86      2.22      3372       100     19141    19141.50    20063.91
+         0         0      3.52      1.18      2.98      3090       100     16848    16848.43    19294.41
+         0         0      7.49      3.82      1.96     21220       100     17394    17394.88    17929.89
+         0         0      4.90      2.76      1.78     29646       100     18756    18756.11    17261.88
+         0         0     11.36      3.68      3.08      3836       100     17264    17264.10    16944.78
+
+total elapsed seconds = 0.050000
+average flips per second = 3452820
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 17264
+average flips per assign (over all runs) = 17264.100000
+average seconds per assign (over all runs) = 0.005000
+mean flips until assign = 17264.100000
+  variance = 287125475.655556
+  standard deviation = 16944.777238
+  standard error of mean = 5358.409052
+mean seconds until assign = 0.005000
+  variance = 0.000024
+  standard deviation = 0.004908
+  standard error of mean = 0.001552
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.066147
+      overall mean meanbad std deviation = 3.246949
+      overall ratio mean numbad to mean std dev = 2.176242
+    statistics on successful runs:
+      successful mean average numbad = 7.066147
+      successful mean numbad std deviation = 3.246949
+      successful ratio mean numbad to mean std dev = 2.176242
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 40588752
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0     10.95      4.47      2.45     76260       100     76260    76260.00
+         0         0     10.57      3.75      2.82     15312       100     45786    45786.00    43096.74
+         0         0     10.66      4.24      2.51     28911       100     40161    40161.00    31993.54
+         0         0     11.41      4.24      2.69     71945       100     48107    48107.00    30576.90
+         0         0      9.30      3.81      2.44     42712       100     47028    47028.00    26590.06
+         0         0      9.84      4.99      1.97     43316       100     46409    46409.33    23831.10
+         0         0     11.53      3.79      3.04      9522       100     41139    41139.71    25838.93
+         0         0      9.68      4.76      2.03     91923       100     47487    47487.62    29910.52
+         0         0      7.39      3.61      2.05     36384       100     46253    46253.89    28222.48
+         0         0     10.88      4.40      2.47     78506       100     49479    49479.10    28496.09
+
+total elapsed seconds = 0.130000
+average flips per second = 3806084
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 49479
+average flips per assign (over all runs) = 49479.100000
+average seconds per assign (over all runs) = 0.013000
+mean flips until assign = 49479.100000
+  variance = 812027247.433333
+  standard deviation = 28496.091792
+  standard error of mean = 9011.255448
+mean seconds until assign = 0.013000
+  variance = 0.000056
+  standard deviation = 0.007487
+  standard error of mean = 0.002368
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 10.221238
+      overall mean meanbad std deviation = 4.207894
+      overall ratio mean numbad to mean std dev = 2.429063
+    statistics on successful runs:
+      successful mean average numbad = 10.221238
+      successful mean numbad std deviation = 4.207894
+      successful ratio mean numbad to mean std dev = 2.429063
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 40796307
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         6      6.87      3.85      1.78    100000         0
+         1         6      6.63      3.74      1.77    100000         0
+         0         0      7.31      3.93      1.86     59962        33     59962   259962.00
+         0         0      9.77      5.68      1.72     10382        50     35172   135172.00   176479.71
+         0         0      7.19      3.26      2.20      9789        60     26711    93377.67   144266.57
+         1         7      7.04      3.82      1.85    100000        50     26711    93377.67   144266.57
+         1         6      7.14      3.85      1.86    100000        42     26711    93377.67   144266.57
+         1         4      6.88      3.62      1.90    100000        37     26711    93377.67   144266.57
+         0         0      7.19      3.43      2.10     87959        44     42023   167023.00   188599.49
+         1         8      7.19      3.68      1.95    100000        40     42023   167023.00   188599.49
+
+total elapsed seconds = 0.200000
+average flips per second = 3840460
+number solutions found = 4
+final success rate = 40.000000
+average length successful tries = 42023
+average flips per assign (over all runs) = 192023.000000
+average seconds per assign (over all runs) = 0.050000
+mean flips until assign = 167023.000000
+  variance = 35569769151.333336
+  standard deviation = 188599.494038
+  standard error of mean = 94299.747019
+mean seconds until assign = 0.043490
+  variance = 0.002412
+  standard deviation = 0.049109
+  standard error of mean = 0.024554
+mean restarts until assign = 2.250000
+  variance = 2.250000
+  standard deviation = 1.500000
+  standard error of mean = 0.750000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.322771
+      overall mean meanbad std deviation = 3.886814
+      overall ratio mean numbad to mean std dev = 1.884003
+    statistics on successful runs:
+      successful mean average numbad = 7.867110
+      successful mean numbad std deviation = 4.077352
+      successful ratio mean numbad to mean std dev = 1.929466
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 6.959878
+      nonsuccessful mean numbad std deviation = 3.759789
+      nonsuccessful ratio mean numbad to mean std dev = 1.851135
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 41069165
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8853, numliterals = 18249
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        16      9.43      4.31      2.19    100000         0
+         1        12     10.01      4.21      2.38    100000         0
+         1         7      8.65      4.83      1.79    100000         0
+         1        10     10.44      4.41      2.37    100000         0
+         0         0     10.42      4.99      2.09     70414        20     70414   470414.00
+         0         0      8.84      4.40      2.01     40764        33     55589   255589.00   303808.43
+         1         5      8.44      4.61      1.83    100000        28     55589   255589.00   303808.43
+         0         0      9.85      5.00      1.97     34156        37     48444   215111.33   225975.90
+         1         7      9.64      4.95      1.95    100000        33     48444   215111.33   225975.90
+         1         9     10.48      4.34      2.41    100000        30     48444   215111.33   225975.90
+
+total elapsed seconds = 0.210000
+average flips per second = 4025400
+number solutions found = 3
+final success rate = 30.000000
+average length successful tries = 48444
+average flips per assign (over all runs) = 281778.000000
+average seconds per assign (over all runs) = 0.070000
+mean flips until assign = 215111.333333
+  variance = 51065105121.333328
+  standard deviation = 225975.895001
+  standard error of mean = 130467.243809
+mean seconds until assign = 0.053438
+  variance = 0.003151
+  standard deviation = 0.056138
+  standard error of mean = 0.032411
+mean restarts until assign = 2.666667
+  variance = 4.333333
+  standard deviation = 2.081666
+  standard error of mean = 1.201850
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 9.619157
+      overall mean meanbad std deviation = 4.605353
+      overall ratio mean numbad to mean std dev = 2.088690
+    statistics on successful runs:
+      successful mean average numbad = 9.703641
+      successful mean numbad std deviation = 4.798358
+      successful ratio mean numbad to mean std dev = 2.022284
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 9.582949
+      nonsuccessful mean numbad std deviation = 4.522637
+      nonsuccessful ratio mean numbad to mean std dev = 2.118886
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 41345085
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8856, numliterals = 18252
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      8.24      3.75      2.20     19251       100     19251    19251.00
+         0         0      9.18      3.89      2.36     72674       100     45962    45962.50    37775.77
+         0         0      7.99      4.93      1.62     13981       100     35302    35302.00    32472.19
+         0         0      7.28      3.88      1.88     42710       100     37154    37154.00    26770.91
+         0         0      9.21      3.50      2.63     12735       100     32270    32270.20    25627.50
+         0         0      8.37      4.09      2.05     97728       100     43179    43179.83    35207.04
+         0         0      0.00      0.00      0.00      1793       100     37267    37267.43    35744.12
+         0         0      8.94      4.07      2.20     71617       100     41561    41561.12    35250.65
+         0         0     10.26      4.67      2.20     35580       100     40896    40896.56    33034.18
+         0         0      5.74      2.93      1.96     17403       100     38547    38547.20    32018.76
+
+total elapsed seconds = 0.100000
+average flips per second = 3854720
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 38547
+average flips per assign (over all runs) = 38547.200000
+average seconds per assign (over all runs) = 0.010000
+mean flips until assign = 38547.200000
+  variance = 1025201112.844445
+  standard deviation = 32018.761888
+  standard error of mean = 10125.221542
+mean seconds until assign = 0.010000
+  variance = 0.000069
+  standard deviation = 0.008306
+  standard error of mean = 0.002627
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.356756
+      overall mean meanbad std deviation = 3.968055
+      overall ratio mean numbad to mean std dev = 2.106008
+    statistics on successful runs:
+      successful mean average numbad = 8.356756
+      successful mean numbad std deviation = 3.968055
+      successful ratio mean numbad to mean std dev = 2.106008
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 41521342
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8857, numliterals = 18253
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        10      7.33      3.82      1.92    100000         0
+         0         0      8.43      4.36      1.93     93655        50     93655   193655.00
+         1         7      8.19      4.09      2.00    100000        33     93655   193655.00
+         0         0     10.99      4.21      2.61     22385        50     58020   158020.00    50395.50
+         0         0      6.82      3.32      2.05     95315        60     70451   137118.33    50798.55
+         0         0      8.22      4.41      1.86     90445        66     75450   125450.00    47591.26
+         0         0      8.24      2.59      3.18      8104        71     61980   101980.80    66728.65
+         0         0      9.48      4.00      2.37     70758        75     63443    96777.00    61029.89
+         1         4      7.21      3.65      1.97    100000        66     63443    96777.00    61029.89
+         0         0     10.08      4.12      2.45     40635        70     60185   103042.43    58126.26
+
+total elapsed seconds = 0.180000
+average flips per second = 4007205
+number solutions found = 7
+final success rate = 70.000000
+average length successful tries = 60185
+average flips per assign (over all runs) = 103042.428571
+average seconds per assign (over all runs) = 0.025714
+mean flips until assign = 103042.428571
+  variance = 3378662083.952383
+  standard deviation = 58126.259848
+  standard error of mean = 21969.661172
+mean seconds until assign = 0.025714
+  variance = 0.000210
+  standard deviation = 0.014505
+  standard error of mean = 0.005483
+mean restarts until assign = 1.428571
+  variance = 0.285714
+  standard deviation = 0.534522
+  standard error of mean = 0.202031
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.498873
+      overall mean meanbad std deviation = 3.857083
+      overall ratio mean numbad to mean std dev = 2.203446
+    statistics on successful runs:
+      successful mean average numbad = 8.894550
+      successful mean numbad std deviation = 3.858143
+      successful ratio mean numbad to mean std dev = 2.305396
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.575626
+      nonsuccessful mean numbad std deviation = 3.854609
+      nonsuccessful ratio mean numbad to mean std dev = 1.965342
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 41770414
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8856, numliterals = 18252
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         5      7.96      4.18      1.91    100000         0
+         1        14      7.82      3.86      2.03    100000         0
+         0         0      9.03      3.41      2.65     26463        33     26463   226463.00
+         1        16      9.08      3.79      2.40    100000        25     26463   226463.00
+         1         4      7.22      3.75      1.92    100000        20     26463   226463.00
+         1         2      9.09      4.43      2.05    100000        16     26463   226463.00
+         1         9      6.98      3.50      2.00    100000        14     26463   226463.00
+         0         0      7.96      3.89      2.05     85697        25     56080   356080.00   183306.12
+         1         8      8.11      4.04      2.01    100000        22     56080   356080.00   183306.12
+         1         4      7.71      3.84      2.01    100000        20     56080   356080.00   183306.12
+
+total elapsed seconds = 0.240000
+average flips per second = 3800666
+number solutions found = 2
+final success rate = 20.000000
+average length successful tries = 56080
+average flips per assign (over all runs) = 456080.000000
+average seconds per assign (over all runs) = 0.120000
+mean flips until assign = 356080.000000
+  variance = 33601133378.000000
+  standard deviation = 183306.119314
+  standard error of mean = 129617.000000
+mean seconds until assign = 0.093689
+  variance = 0.002326
+  standard deviation = 0.048230
+  standard error of mean = 0.034104
+mean restarts until assign = 4.000000
+  variance = 2.000000
+  standard deviation = 1.414214
+  standard error of mean = 1.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.098821
+      overall mean meanbad std deviation = 3.869151
+      overall ratio mean numbad to mean std dev = 2.093178
+    statistics on successful runs:
+      successful mean average numbad = 8.497804
+      successful mean numbad std deviation = 3.647410
+      successful ratio mean numbad to mean std dev = 2.329819
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.999075
+      nonsuccessful mean numbad std deviation = 3.924586
+      nonsuccessful ratio mean numbad to mean std dev = 2.038196
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 42081215
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         2      7.46      4.14      1.80    100000         0
+         0         0      8.60      4.18      2.06     77471        50     77471   177471.00
+         1         3      7.79      4.42      1.76    100000        33     77471   177471.00
+         0         0      7.19      3.67      1.96     62569        50     70020   170020.00    10537.31
+         0         0      8.02      4.48      1.79     10771        60     50270   116937.00    92243.87
+         0         0      8.01      4.11      1.95     37886        66     47174    97174.25    85058.14
+         1         9      7.61      4.04      1.88    100000        57     47174    97174.25    85058.14
+         0         0      6.60      2.83      2.33      4147        62     38568    98568.80    73728.48
+         0         0      9.90      4.09      2.42     46365        66     39868    89868.17    69303.08
+         0         0      9.28      4.44      2.09     26292        70     37928    80785.86    67674.58
+
+total elapsed seconds = 0.140000
+average flips per second = 4039292
+number solutions found = 7
+final success rate = 70.000000
+average length successful tries = 37928
+average flips per assign (over all runs) = 80785.857143
+average seconds per assign (over all runs) = 0.020000
+mean flips until assign = 80785.857143
+  variance = 4579849356.142856
+  standard deviation = 67674.584270
+  standard error of mean = 25578.588580
+mean seconds until assign = 0.020000
+  variance = 0.000281
+  standard deviation = 0.016754
+  standard error of mean = 0.006332
+mean restarts until assign = 1.428571
+  variance = 0.285714
+  standard deviation = 0.534522
+  standard error of mean = 0.202031
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.044944
+      overall mean meanbad std deviation = 4.040643
+      overall ratio mean numbad to mean std dev = 1.991006
+    statistics on successful runs:
+      successful mean average numbad = 8.228213
+      successful mean numbad std deviation = 3.972263
+      successful ratio mean numbad to mean std dev = 2.071417
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.617318
+      nonsuccessful mean numbad std deviation = 4.200198
+      nonsuccessful ratio mean numbad to mean std dev = 1.813562
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 42289167
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8854, numliterals = 18250
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        16      7.71      4.30      1.79    100000         0
+         1         7      7.48      3.92      1.91    100000         0
+         0         0      6.86      4.48      1.53     22059        33     22059   222059.00
+         1         7      9.15      4.06      2.25    100000        25     22059   222059.00
+         1         2      7.73      4.10      1.88    100000        20     22059   222059.00
+         1         3      8.14      4.22      1.93    100000        16     22059   222059.00
+         1         7      8.12      4.38      1.86    100000        14     22059   222059.00
+         1         4      8.93      4.04      2.21    100000        12     22059   222059.00
+         1         9      6.97      3.86      1.80    100000        11     22059   222059.00
+         1         2      7.67      3.86      1.99    100000        10     22059   222059.00
+
+total elapsed seconds = 0.240000
+average flips per second = 3841912
+number solutions found = 1
+final success rate = 10.000000
+average length successful tries = 22059
+average flips per assign (over all runs) = 922059.000000
+average seconds per assign (over all runs) = 0.240000
+mean flips until assign = 222059.000000
+mean seconds until assign = 0.057799
+mean restarts until assign = 3.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.876419
+      overall mean meanbad std deviation = 4.121918
+      overall ratio mean numbad to mean std dev = 1.910863
+    statistics on successful runs:
+      successful mean average numbad = 6.858732
+      successful mean numbad std deviation = 4.484650
+      successful ratio mean numbad to mean std dev = 1.529379
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.989495
+      nonsuccessful mean numbad std deviation = 4.081614
+      nonsuccessful ratio mean numbad to mean std dev = 1.957435
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 42601496
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        22      7.93      4.30      1.85    100000         0
+         0         0      8.28      3.79      2.18     35460        50     35460   135460.00
+         1         5      6.59      3.55      1.86    100000        33     35460   135460.00
+         1         8      8.77      4.52      1.94    100000        25     35460   135460.00
+         1        16      8.70      4.10      2.12    100000        20     35460   135460.00
+         0         0      8.23      4.54      1.81     76383        33     55921   255921.50   170358.29
+         1        12      8.97      3.87      2.32    100000        28     55921   255921.50   170358.29
+         0         0      8.88      4.41      2.01     62540        37     58127   224794.33   131976.04
+         0         0      6.84      3.90      1.76     84539        44     64730   189730.50   128567.77
+         1         8      7.14      3.88      1.84    100000        40     64730   189730.50   128567.77
+
+total elapsed seconds = 0.220000
+average flips per second = 3904190
+number solutions found = 4
+final success rate = 40.000000
+average length successful tries = 64730
+average flips per assign (over all runs) = 214730.500000
+average seconds per assign (over all runs) = 0.055000
+mean flips until assign = 189730.500000
+  variance = 16529672629.666666
+  standard deviation = 128567.774460
+  standard error of mean = 64283.887230
+mean seconds until assign = 0.048597
+  variance = 0.001084
+  standard deviation = 0.032931
+  standard error of mean = 0.016465
+mean restarts until assign = 2.250000
+  variance = 1.583333
+  standard deviation = 1.258306
+  standard error of mean = 0.629153
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.033321
+      overall mean meanbad std deviation = 4.084918
+      overall ratio mean numbad to mean std dev = 1.966581
+    statistics on successful runs:
+      successful mean average numbad = 8.059499
+      successful mean numbad std deviation = 4.161058
+      successful ratio mean numbad to mean std dev = 1.936887
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 8.015869
+      nonsuccessful mean numbad std deviation = 4.034158
+      nonsuccessful ratio mean numbad to mean std dev = 1.986999
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 42888134
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.33      3.58      1.49     26693       100     26693    26693.00
+         0         0      8.72      5.01      1.74      7375       100     17034    17034.00    13659.89
+         0         0      2.72      1.11      2.44      3072       100     12380    12380.00    12580.76
+         0         0      8.51      3.32      2.57     20455       100     14398    14398.75    11037.14
+         0         0      0.00      0.00      0.00      1956       100     11910    11910.20    11060.21
+         0         0      4.94      2.90      1.71      8514       100     11344    11344.17     9989.24
+         0         0     10.24      3.72      2.75      4086       100     10307    10307.29     9522.60
+         0         0      5.87      3.36      1.75     25804       100     12244    12244.38    10379.99
+         0         0      4.47      2.46      1.82      5602       100     11506    11506.33     9958.84
+         0         0      0.00      0.00      0.00      2829       100     10638    10638.60     9782.04
+
+total elapsed seconds = 0.030000
+average flips per second = 3546200
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 10638
+average flips per assign (over all runs) = 10638.600000
+average seconds per assign (over all runs) = 0.003000
+mean flips until assign = 10638.600000
+  variance = 95688285.822222
+  standard deviation = 9782.038940
+  standard error of mean = 3093.352321
+mean seconds until assign = 0.003000
+  variance = 0.000008
+  standard deviation = 0.002758
+  standard error of mean = 0.000872
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.350777
+      overall mean meanbad std deviation = 3.182021
+      overall ratio mean numbad to mean std dev = 1.995831
+    statistics on successful runs:
+      successful mean average numbad = 6.350777
+      successful mean numbad std deviation = 3.182021
+      successful ratio mean numbad to mean std dev = 1.995831
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 42985078
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8860, numliterals = 18256
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      3.75      2.01      1.87      3416       100      3416     3416.00
+         0         0      0.00      0.00      0.00      2421       100      2918     2918.50      703.57
+         0         0      2.99      1.23      2.44      3145       100      2994     2994.00      514.40
+         0         0      0.00      0.00      0.00      2165       100      2786     2786.75      590.10
+         0         0      9.19      3.72      2.47     12111       100      4651     4651.60     4201.13
+         0         0      8.09      2.71      2.98     15738       100      6499     6499.33     5882.54
+         0         0      0.00      0.00      0.00      1454       100      5778     5778.57     5698.54
+         0         0      0.00      0.00      0.00      1765       100      5276     5276.88     5463.33
+         0         0      7.12      3.87      1.84      4444       100      5184     5184.33     5118.01
+         0         0      0.00      0.00      0.00      1534       100      4819     4819.30     4961.46
+
+total elapsed seconds = 0.020000
+average flips per second = 2409650
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 4819
+average flips per assign (over all runs) = 4819.300000
+average seconds per assign (over all runs) = 0.002000
+mean flips until assign = 4819.300000
+  variance = 24616068.900000
+  standard deviation = 4961.458344
+  standard error of mean = 1568.950888
+mean seconds until assign = 0.002000
+  variance = 0.000004
+  standard deviation = 0.002059
+  standard error of mean = 0.000651
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.229276
+      overall mean meanbad std deviation = 2.709920
+      overall ratio mean numbad to mean std dev = 2.298694
+    statistics on successful runs:
+      successful mean average numbad = 6.229276
+      successful mean numbad std deviation = 2.709920
+      successful ratio mean numbad to mean std dev = 2.298694
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43084143
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      9.31      3.72      2.50     17918       100     17918    17918.00
+         0         0      6.38      3.56      1.79     39288       100     28603    28603.00    15110.87
+         0         0      4.77      2.94      1.62     34517       100     30574    30574.33    11217.29
+         0         0      5.28      3.13      1.69     31509       100     30808    30808.00     9170.80
+         0         0      3.81      2.05      1.86      6207       100     25887    25887.80    13569.06
+         0         0      6.32      3.90      1.62     49111       100     29758    29758.33    15400.71
+         0         0      6.87      3.40      2.02     22744       100     28756    28756.29    14306.65
+         0         0      6.76      3.35      2.02     23236       100     28066    28066.25    13388.40
+         0         0      6.72      4.02      1.67     10651       100     26131    26131.22    13803.70
+         0         0     11.31      4.47      2.53     14786       100     24996    24996.70    13499.71
+
+total elapsed seconds = 0.060000
+average flips per second = 4166116
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 24996
+average flips per assign (over all runs) = 24996.700000
+average seconds per assign (over all runs) = 0.006000
+mean flips until assign = 24996.700000
+  variance = 182242214.233333
+  standard deviation = 13499.711635
+  standard error of mean = 4268.983652
+mean seconds until assign = 0.006000
+  variance = 0.000010
+  standard deviation = 0.003240
+  standard error of mean = 0.001025
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 6.751632
+      overall mean meanbad std deviation = 3.453309
+      overall ratio mean numbad to mean std dev = 1.955119
+    statistics on successful runs:
+      successful mean average numbad = 6.751632
+      successful mean numbad std deviation = 3.453309
+      successful ratio mean numbad to mean std dev = 1.955119
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43223966
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      4.87      2.17      2.24      3034       100      3034     3034.00
+         0         0      4.61      2.59      1.78     22719       100     12876    12876.50    13919.40
+         0         0      3.58      1.63      2.20      3268       100      9673     9673.67    11298.20
+         0         0      0.00      0.00      0.00      1358       100      7594     7594.75    10118.65
+         0         0      5.76      2.00      2.87      5142       100      7104     7104.20     8831.39
+         0         0      0.00      0.00      0.00      1655       100      6196     6196.00     8206.32
+         0         0      9.58      2.64      3.63      8008       100      6454     6454.86     7522.56
+         0         0      4.87      2.53      1.93     27718       100      9112     9112.75    10247.92
+         0         0      5.66      1.83      3.09      3689       100      8510     8510.11     9755.05
+         0         0      0.00      0.00      0.00      1966       100      7855     7855.70     9427.09
+
+total elapsed seconds = 0.020000
+average flips per second = 3927850
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 7855
+average flips per assign (over all runs) = 7855.700000
+average seconds per assign (over all runs) = 0.002000
+mean flips until assign = 7855.700000
+  variance = 88870059.344444
+  standard deviation = 9427.091776
+  standard error of mean = 2981.108172
+mean seconds until assign = 0.002000
+  variance = 0.000006
+  standard deviation = 0.002400
+  standard error of mean = 0.000759
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 5.560930
+      overall mean meanbad std deviation = 2.197631
+      overall ratio mean numbad to mean std dev = 2.530420
+    statistics on successful runs:
+      successful mean average numbad = 5.560930
+      successful mean numbad std deviation = 2.197631
+      successful ratio mean numbad to mean std dev = 2.530420
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43312685
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      8.18      3.41      2.40     15462       100     15462    15462.00
+         0         0      7.47      3.13      2.38     41287       100     28374    28374.50    18261.03
+         0         0      6.87      3.03      2.27     13156       100     23301    23301.67    15618.37
+         0         0      4.44      2.21      2.01      6453       100     19089    19089.50    15283.71
+         0         0      0.00      0.00      0.00      1728       100     15617    15617.20    15345.30
+         0         0      6.97      2.73      2.55      8159       100     14374    14374.17    14058.92
+         0         0      7.96      2.92      2.73     12762       100     14143    14143.86    12848.44
+         0         0      6.93      3.36      2.06     17558       100     14570    14570.62    11956.43
+         0         0      6.27      3.21      1.96     15275       100     14648    14648.89    11186.68
+         0         0      9.57      4.29      2.23     10112       100     14195    14195.20    10644.04
+
+total elapsed seconds = 0.040000
+average flips per second = 3548800
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 14195
+average flips per assign (over all runs) = 14195.200000
+average seconds per assign (over all runs) = 0.004000
+mean flips until assign = 14195.200000
+  variance = 113295529.955556
+  standard deviation = 10644.037296
+  standard error of mean = 3365.940135
+mean seconds until assign = 0.004000
+  variance = 0.000009
+  standard deviation = 0.002999
+  standard error of mean = 0.000948
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.185178
+      overall mean meanbad std deviation = 3.143627
+      overall ratio mean numbad to mean std dev = 2.285633
+    statistics on successful runs:
+      successful mean average numbad = 7.185178
+      successful mean numbad std deviation = 3.143627
+      successful ratio mean numbad to mean std dev = 2.285633
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43418520
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      6.16      3.73      1.65      9937       100      9937     9937.00
+         0         0      4.84      2.83      1.71     22082       100     16009    16009.50     8587.81
+         0         0      6.86      4.94      1.39      8394       100     13471    13471.00     7497.15
+         0         0      4.21      2.01      2.09      5180       100     11398    11398.25     7393.01
+         0         0      3.77      1.70      2.22     11003       100     11319    11319.20     6404.98
+         0         0      4.93      2.28      2.16     10222       100     11136    11136.33     5746.27
+         0         0      5.17      2.63      1.96      6043       100     10408    10408.71     5587.70
+         0         0      9.69      4.99      1.94     12115       100     10622    10622.00     5208.26
+         0         0      7.26      3.70      1.96     14091       100     11007    11007.44     5007.23
+         0         0      5.07      2.85      1.78     83980       100     18304    18304.70    23553.89
+
+total elapsed seconds = 0.040000
+average flips per second = 4576175
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 18304
+average flips per assign (over all runs) = 18304.700000
+average seconds per assign (over all runs) = 0.004000
+mean flips until assign = 18304.700000
+  variance = 554785884.011111
+  standard deviation = 23553.893182
+  standard error of mean = 7448.395022
+mean seconds until assign = 0.004000
+  variance = 0.000026
+  standard deviation = 0.005147
+  standard error of mean = 0.001628
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 5.794631
+      overall mean meanbad std deviation = 3.165936
+      overall ratio mean numbad to mean std dev = 1.830306
+    statistics on successful runs:
+      successful mean average numbad = 5.794631
+      successful mean numbad std deviation = 3.165936
+      successful ratio mean numbad to mean std dev = 1.830306
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43532457
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8859, numliterals = 18255
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      5.87      2.75      2.14      5866       100      5866     5866.00
+         0         0      8.25      3.11      2.66      7429       100      6647     6647.50     1105.21
+         0         0      0.00      0.00      0.00      2853       100      5382     5382.67     2325.97
+         0         0      5.21      3.02      1.73      3933       100      5020     5020.25     2032.77
+         0         0      7.67      2.71      2.83      4991       100      5014     5014.40     1760.48
+         0         0      4.32      2.29      1.89      6858       100      5321     5321.67     1745.25
+         0         0     11.12      4.89      2.27     11892       100      6260     6260.29     2950.47
+         0         0      8.18      4.77      1.71     13059       100      7110     7110.12     3638.61
+         0         0      8.03      3.45      2.33      6692       100      7063     7063.67     3406.46
+         0         0      8.88      3.70      2.40     13025       100      7659     7659.80     3724.03
+
+total elapsed seconds = 0.020000
+average flips per second = 3829900
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 7659
+average flips per assign (over all runs) = 7659.800000
+average seconds per assign (over all runs) = 0.002000
+mean flips until assign = 7659.800000
+  variance = 13868401.511111
+  standard deviation = 3724.030278
+  standard error of mean = 1177.641775
+mean seconds until assign = 0.002000
+  variance = 0.000001
+  standard deviation = 0.000972
+  standard error of mean = 0.000307
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.502700
+      overall mean meanbad std deviation = 3.409120
+      overall ratio mean numbad to mean std dev = 2.200774
+    statistics on successful runs:
+      successful mean average numbad = 7.502700
+      successful mean numbad std deviation = 3.409120
+      successful ratio mean numbad to mean std dev = 2.200774
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43628339
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8861, numliterals = 18257
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      4.45      2.70      1.65      4518       100      4518     4518.00
+         0         0      7.59      2.59      2.92      5936       100      5227     5227.00     1002.68
+         0         0      6.78      2.69      2.52      6099       100      5517     5517.67      869.56
+         0         0      5.27      3.06      1.72     19271       100      8956     8956.00     6913.22
+         0         0      6.01      3.25      1.85     32470       100     13658    13658.80    12100.67
+         0         0      0.00      0.00      0.00      2893       100     11864    11864.50    11681.52
+         0         0      6.99      3.27      2.14     16179       100     12480    12480.86    10787.69
+         0         0      4.85      2.60      1.86      6306       100     11709    11709.00    10223.28
+         0         0      4.34      2.31      1.88      5249       100     10991    10991.22     9802.44
+         0         0      0.00      0.00      0.00      1267       100     10018    10018.80     9739.99
+
+total elapsed seconds = 0.020000
+average flips per second = 5009400
+number solutions found = 10
+final success rate = 100.000000
+average length successful tries = 10018
+average flips per assign (over all runs) = 10018.800000
+average seconds per assign (over all runs) = 0.002000
+mean flips until assign = 10018.800000
+  variance = 94867493.733333
+  standard deviation = 9739.994545
+  standard error of mean = 3080.056716
+mean seconds until assign = 0.002000
+  variance = 0.000004
+  standard deviation = 0.001944
+  standard error of mean = 0.000615
+mean restarts until assign = 1.000000
+  variance = 0.000000
+  standard deviation = 0.000000
+  standard error of mean = 0.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 5.784472
+      overall mean meanbad std deviation = 2.809723
+      overall ratio mean numbad to mean std dev = 2.058734
+    statistics on successful runs:
+      successful mean average numbad = 5.784472
+      successful mean numbad std deviation = 2.809723
+      successful ratio mean numbad to mean std dev = 2.058734
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 0.000000
+      nonsuccessful mean numbad std deviation = 0.000000
+      nonsuccessful ratio mean numbad to mean std dev = 0.000000
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43721916
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         6      8.36      4.06      2.06    100000         0
+         0         0      8.52      3.72      2.29     31638        50     31638   131638.00
+         0         0      6.97      3.70      1.88     29210        66     30424    80424.00    72427.53
+         1         4      8.41      4.11      2.04    100000        50     30424    80424.00    72427.53
+         1        14      9.58      4.40      2.18    100000        40     30424    80424.00    72427.53
+         0         0      8.70      3.82      2.28     33518        50     31455   131455.33   102154.12
+         0         0     10.95      4.29      2.55      4676        57     24760    99760.50   104762.71
+         0         0      4.61      1.88      2.45      3261        62     20460    80460.60   100468.16
+         0         0      8.92      4.10      2.18     56858        66     26526    76526.83    90376.59
+         1         6      8.56      4.02      2.13    100000        60     26526    76526.83    90376.59
+
+total elapsed seconds = 0.140000
+average flips per second = 3994007
+number solutions found = 6
+final success rate = 60.000000
+average length successful tries = 26526
+average flips per assign (over all runs) = 93193.500000
+average seconds per assign (over all runs) = 0.023333
+mean flips until assign = 76526.833333
+  variance = 8167927481.766668
+  standard deviation = 90376.587022
+  standard error of mean = 36896.087150
+mean seconds until assign = 0.019160
+  variance = 0.000512
+  standard deviation = 0.022628
+  standard error of mean = 0.009238
+mean restarts until assign = 1.500000
+  variance = 0.700000
+  standard deviation = 0.836660
+  standard error of mean = 0.341565
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.357646
+      overall mean meanbad std deviation = 3.809461
+      overall ratio mean numbad to mean std dev = 2.193918
+    statistics on successful runs:
+      successful mean average numbad = 8.111982
+      successful mean numbad std deviation = 3.585026
+      successful ratio mean numbad to mean std dev = 2.262740
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 8.726143
+      nonsuccessful mean numbad std deviation = 4.146114
+      nonsuccessful ratio mean numbad to mean std dev = 2.104656
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 43925141
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      7.83      3.73      2.10     21126       100     21126    21126.00
+         0         0      7.25      4.16      1.74     39703       100     30414    30414.50    13135.92
+         0         0      6.82      3.77      1.81     46465       100     35764    35764.67    13120.56
+         0         0      7.48      4.36      1.71     90118       100     49353    49353.00    29211.94
+         0         0      7.90      3.48      2.27     16144       100     42711    42711.20    29335.48
+         1         4      6.77      3.46      1.96    100000        83     42711    42711.20    29335.48
+         1        12      6.78      3.69      1.84    100000        71     42711    42711.20    29335.48
+         1        12      7.14      3.72      1.92    100000        62     42711    42711.20    29335.48
+         1         8      6.69      3.53      1.89    100000        55     42711    42711.20    29335.48
+         0         0      6.76      3.55      1.91     74865        60     48070   114736.83   178366.50
+
+total elapsed seconds = 0.160000
+average flips per second = 4302631
+number solutions found = 6
+final success rate = 60.000000
+average length successful tries = 48070
+average flips per assign (over all runs) = 114736.833333
+average seconds per assign (over all runs) = 0.026667
+mean flips until assign = 114736.833333
+  variance = 31814607530.966667
+  standard deviation = 178366.497782
+  standard error of mean = 72817.817795
+mean seconds until assign = 0.026667
+  variance = 0.001719
+  standard deviation = 0.041455
+  standard error of mean = 0.016924
+mean restarts until assign = 1.666667
+  variance = 2.666667
+  standard deviation = 1.632993
+  standard error of mean = 0.666667
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.142505
+      overall mean meanbad std deviation = 3.744370
+      overall ratio mean numbad to mean std dev = 1.907532
+    statistics on successful runs:
+      successful mean average numbad = 7.340643
+      successful mean numbad std deviation = 3.840814
+      successful ratio mean numbad to mean std dev = 1.911221
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 6.845298
+      nonsuccessful mean numbad std deviation = 3.599705
+      nonsuccessful ratio mean numbad to mean std dev = 1.901628
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 44161912
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0      6.90      3.82      1.81     67491       100     67491    67491.00
+         1         4      8.55      4.14      2.07    100000        50     67491    67491.00
+         1         7      7.36      4.03      1.82    100000        33     67491    67491.00
+         1         8      7.86      4.12      1.91    100000        25     67491    67491.00
+         1        11      7.92      4.34      1.83    100000        20     67491    67491.00
+         0         0      9.93      4.42      2.25     59915        33     63703   263703.00   277485.67
+         0         0      8.93      4.21      2.12     43536        42     56980   190314.00   233788.33
+         1         3      8.53      4.05      2.10    100000        37     56980   190314.00   233788.33
+         0         0      6.86      4.13      1.66     48935        44     54969   179969.25   192005.33
+         0         0      7.63      4.11      1.86     85950        50     61165   161165.40   171515.18
+
+total elapsed seconds = 0.200000
+average flips per second = 4029135
+number solutions found = 5
+final success rate = 50.000000
+average length successful tries = 61165
+average flips per assign (over all runs) = 161165.400000
+average seconds per assign (over all runs) = 0.040000
+mean flips until assign = 161165.400000
+  variance = 29417457885.300003
+  standard deviation = 171515.182667
+  standard error of mean = 76703.921523
+mean seconds until assign = 0.040000
+  variance = 0.001812
+  standard deviation = 0.042569
+  standard error of mean = 0.019037
+mean restarts until assign = 2.000000
+  variance = 3.000000
+  standard deviation = 1.732051
+  standard error of mean = 0.774597
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.047179
+      overall mean meanbad std deviation = 4.135000
+      overall ratio mean numbad to mean std dev = 1.946113
+    statistics on successful runs:
+      successful mean average numbad = 8.051090
+      successful mean numbad std deviation = 4.134893
+      successful ratio mean numbad to mean std dev = 1.947110
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 8.043268
+      nonsuccessful mean numbad std deviation = 4.135107
+      nonsuccessful ratio mean numbad to mean std dev = 1.945117
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 44431927
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8853, numliterals = 18249
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         0         0     11.72      4.78      2.45     48325       100     48325    48325.00
+         0         0     11.71      3.92      2.99     22642       100     35483    35483.50    18160.62
+         1        22     10.50      5.32      1.97    100000        66     35483    35483.50    18160.62
+         1        14     10.01      5.03      1.99    100000        50     35483    35483.50    18160.62
+         1        11      9.71      4.52      2.15    100000        40     35483    35483.50    18160.62
+         1        12      9.97      4.61      2.16    100000        33     35483    35483.50    18160.62
+         1         9     10.75      5.14      2.09    100000        28     35483    35483.50    18160.62
+         0         0      9.35      4.36      2.15     71715        37     47560   214227.33   309859.61
+         1        12      9.60      4.06      2.36    100000        33     47560   214227.33   309859.61
+         0         0     13.08      4.68      2.79     18682        40     40341   190341.00   257470.15
+
+total elapsed seconds = 0.200000
+average flips per second = 3806820
+number solutions found = 4
+final success rate = 40.000000
+average length successful tries = 40341
+average flips per assign (over all runs) = 190341.000000
+average seconds per assign (over all runs) = 0.050000
+mean flips until assign = 190341.000000
+  variance = 66290879671.333336
+  standard deviation = 257470.152972
+  standard error of mean = 128735.076486
+mean seconds until assign = 0.050000
+  variance = 0.004574
+  standard deviation = 0.067634
+  standard error of mean = 0.033817
+mean restarts until assign = 2.500000
+  variance = 5.666667
+  standard deviation = 2.380476
+  standard error of mean = 1.190238
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 10.640242
+      overall mean meanbad std deviation = 4.641673
+      overall ratio mean numbad to mean std dev = 2.292329
+    statistics on successful runs:
+      successful mean average numbad = 11.466236
+      successful mean numbad std deviation = 4.432906
+      successful ratio mean numbad to mean std dev = 2.586618
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 10.089579
+      nonsuccessful mean numbad std deviation = 4.780851
+      nonsuccessful ratio mean numbad to mean std dev = 2.110415
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 44704292
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8855, numliterals = 18251
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         6      7.18      3.60      1.99    100000         0
+         0         0     10.12      4.46      2.27     34105        50     34105   134105.00
+         0         0      6.25      2.91      2.15      5647        66     19876    69876.00    90833.52
+         0         0     13.86      5.03      2.75      8515        75     16089    49422.33    73351.36
+         0         0      7.60      3.83      1.98     13577        80     15461    40461.00    62515.36
+         1         6      6.90      3.57      1.93    100000        66     15461    40461.00    62515.36
+         0         0      8.33      3.93      2.12     38580        71     20084    60084.80    69689.28
+         1         5      7.60      3.78      2.01    100000        62     20084    60084.80    69689.28
+         0         0      9.43      4.12      2.29      8308        66     18122    68122.00    65367.08
+         0         0      7.70      4.14      1.86     58142        70     23839    66696.29    59790.82
+
+total elapsed seconds = 0.120000
+average flips per second = 3890616
+number solutions found = 7
+final success rate = 70.000000
+average length successful tries = 23839
+average flips per assign (over all runs) = 66696.285714
+average seconds per assign (over all runs) = 0.017143
+mean flips until assign = 66696.285714
+  variance = 3574941586.571430
+  standard deviation = 59790.815236
+  standard error of mean = 22598.803971
+mean seconds until assign = 0.017143
+  variance = 0.000236
+  standard deviation = 0.015368
+  standard error of mean = 0.005809
+mean restarts until assign = 1.428571
+  variance = 0.285714
+  standard deviation = 0.534522
+  standard error of mean = 0.202031
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.497247
+      overall mean meanbad std deviation = 3.936329
+      overall ratio mean numbad to mean std dev = 2.158673
+    statistics on successful runs:
+      successful mean average numbad = 9.042332
+      successful mean numbad std deviation = 4.058704
+      successful ratio mean numbad to mean std dev = 2.227887
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.225382
+      nonsuccessful mean numbad std deviation = 3.650786
+      nonsuccessful ratio mean numbad to mean std dev = 1.979131
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 44885999
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8853, numliterals = 18249
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        13      9.98      5.15      1.94    100000         0
+         1        11     10.31      4.75      2.17    100000         0
+         1        12      8.95      4.56      1.96    100000         0
+         1         7      8.73      4.01      2.18    100000         0
+         0         0     10.05      4.42      2.27     77039        20     77039   477039.00
+         0         0      9.87      4.55      2.17     77059        33     77049   277049.00   282828.57
+         1         2      8.93      4.29      2.08    100000        28     77049   277049.00   282828.57
+         0         0      9.09      4.59      1.98     97548        37     83882   250548.67   205189.68
+         1         2      8.49      4.38      1.94    100000        33     83882   250548.67   205189.68
+         1         7      9.29      4.54      2.05    100000        30     83882   250548.67   205189.68
+
+total elapsed seconds = 0.240000
+average flips per second = 3965191
+number solutions found = 3
+final success rate = 30.000000
+average length successful tries = 83882
+average flips per assign (over all runs) = 317215.333333
+average seconds per assign (over all runs) = 0.080000
+mean flips until assign = 250548.666667
+  variance = 42102803100.333344
+  standard deviation = 205189.675911
+  standard error of mean = 118466.314622
+mean seconds until assign = 0.063187
+  variance = 0.002678
+  standard deviation = 0.051748
+  standard error of mean = 0.029877
+mean restarts until assign = 2.666667
+  variance = 4.333333
+  standard deviation = 2.081666
+  standard error of mean = 1.201850
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 9.370497
+      overall mean meanbad std deviation = 4.523185
+      overall ratio mean numbad to mean std dev = 2.071659
+    statistics on successful runs:
+      successful mean average numbad = 9.670765
+      successful mean numbad std deviation = 4.518318
+      successful ratio mean numbad to mean std dev = 2.140346
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 9.241810
+      nonsuccessful mean numbad std deviation = 4.525271
+      nonsuccessful ratio mean numbad to mean std dev = 2.042267
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 45199230
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8852, numliterals = 18248
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        12      8.85      4.56      1.94    100000         0
+         1         2      8.82      4.50      1.96    100000         0
+         1         7      8.84      4.57      1.94    100000         0
+         1         8      8.56      4.46      1.92    100000         0
+         0         0      8.35      4.22      1.98     57760        20     57760   457760.00
+         1         9      8.32      4.13      2.01    100000        16     57760   457760.00
+         0         0      7.11      3.12      2.28      6144        28     31952   281952.00   248630.06
+         1         5      8.25      4.16      1.98    100000        25     31952   281952.00   248630.06
+         0         0      8.03      4.05      1.98     30522        33     31475   231475.33   196346.97
+         1         5      8.72      4.06      2.15    100000        30     31475   231475.33   196346.97
+
+total elapsed seconds = 0.190000
+average flips per second = 4181189
+number solutions found = 3
+final success rate = 30.000000
+average length successful tries = 31475
+average flips per assign (over all runs) = 264808.666667
+average seconds per assign (over all runs) = 0.063333
+mean flips until assign = 231475.333333
+  variance = 38552134497.333328
+  standard deviation = 196346.974760
+  standard error of mean = 113360.978732
+mean seconds until assign = 0.055361
+  variance = 0.002205
+  standard deviation = 0.046960
+  standard error of mean = 0.027112
+mean restarts until assign = 3.000000
+  variance = 3.000000
+  standard deviation = 1.732051
+  standard error of mean = 1.000000
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.383364
+      overall mean meanbad std deviation = 4.183076
+      overall ratio mean numbad to mean std dev = 2.004115
+    statistics on successful runs:
+      successful mean average numbad = 7.830170
+      successful mean numbad std deviation = 3.796108
+      successful ratio mean numbad to mean std dev = 2.062684
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 8.620447
+      nonsuccessful mean numbad std deviation = 4.348919
+      nonsuccessful ratio mean numbad to mean std dev = 1.982204
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 45457763
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8854, numliterals = 18250
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        17      7.96      3.93      2.03    100000         0
+         0         0      8.27      4.21      1.97     85946        50     85946   185946.00
+         1         7      7.03      3.76      1.87    100000        33     85946   185946.00
+         1        14      9.01      4.30      2.09    100000        25     85946   185946.00
+         1         9      8.09      4.41      1.83    100000        20     85946   185946.00
+         0         0      8.08      4.11      1.96     70108        33     78027   278027.00   130222.20
+         0         0      8.17      3.70      2.21     13486        42     56513   189846.67   178343.00
+         1        10      7.27      3.82      1.90    100000        37     56513   189846.67   178343.00
+         0         0      7.57      3.96      1.91     86651        44     64047   189047.75   145625.21
+         1        15      9.53      4.22      2.26    100000        40     64047   189047.75   145625.21
+
+total elapsed seconds = 0.220000
+average flips per second = 3891777
+number solutions found = 4
+final success rate = 40.000000
+average length successful tries = 64047
+average flips per assign (over all runs) = 214047.750000
+average seconds per assign (over all runs) = 0.055000
+mean flips until assign = 189047.750000
+  variance = 21206702485.583332
+  standard deviation = 145625.212397
+  standard error of mean = 72812.606198
+mean seconds until assign = 0.048576
+  variance = 0.001400
+  standard deviation = 0.037419
+  standard error of mean = 0.018709
+mean restarts until assign = 2.250000
+  variance = 1.583333
+  standard deviation = 1.258306
+  standard error of mean = 0.629153
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 8.097773
+      overall mean meanbad std deviation = 4.043253
+      overall ratio mean numbad to mean std dev = 2.002787
+    statistics on successful runs:
+      successful mean average numbad = 8.022588
+      successful mean numbad std deviation = 3.996068
+      successful ratio mean numbad to mean std dev = 2.007620
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 8.147896
+      nonsuccessful mean numbad std deviation = 4.074709
+      nonsuccessful ratio mean numbad to mean std dev = 1.999627
+ASSIGNMENT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 45773178
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8851, numliterals = 18247
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1        13      9.80      4.67      2.10    100000         0
+         1        14      9.93      4.56      2.18    100000         0
+         1         6      9.22      4.65      1.98    100000         0
+         1         9     10.36      4.37      2.37    100000         0
+         1        11      9.44      4.59      2.06    100000         0
+         1        10     10.33      4.91      2.10    100000         0
+         1        15      8.23      4.08      2.02    100000         0
+         1         6     10.09      4.57      2.21    100000         0
+         1        14     10.84      4.77      2.27    100000         0
+         1        17      7.94      3.76      2.11    100000         0
+
+total elapsed seconds = 0.260000
+average flips per second = 3846153
+number solutions found = 0
+final success rate = 0.000000
+average length successful tries = 0
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 9.618386
+      overall mean meanbad std deviation = 4.494447
+      overall ratio mean numbad to mean std dev = 2.140060
+    statistics on successful runs:
+      successful mean average numbad = 0.000000
+      successful mean numbad std deviation = 0.000000
+      successful ratio mean numbad to mean std dev = 0.000000
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 9.618386
+      nonsuccessful mean numbad std deviation = 4.494447
+      nonsuccessful ratio mean numbad to mean std dev = 2.140060
+ASSIGNMENT NOT FOUND
+walksat-v51
+command line = ./walksat -out miniSATOutput sud2satOutput
+seed = 46098671
+cutoff = 100000
+tries = 10
+heuristic = best, noise 50 / 100
+allocating memory...
+tail starts after flip = 2997
+numatom = 999, numclause = 8854, numliterals = 18250
+wff read in
+
+    lowest     final       avg     dist      dist      total                 avg        mean        mean
+    #unsat    #unsat      dist   std dev     ratio     flips              length       flips       flips
+      this      this      this      this      this      this   success   success       until         std
+       try       try       try       try       try       try      rate     tries      assign         dev
+
+         1         6      8.73      4.46      1.95    100000         0
+         0         0      6.68      3.99      1.67     10934        50     10934   110934.00
+         0         0      5.71      3.15      1.81     44319        66     27626    77626.50    47103.92
+         0         0      9.95      4.45      2.24     29794        75     28349    61682.33    43267.06
+         0         0      7.80      3.99      1.95     59315        80     36090    61090.50    35347.23
+         0         0      8.26      5.00      1.65     80007        83     44873    64873.80    31759.05
+         1         5      7.03      4.29      1.64    100000        71     44873    64873.80    31759.05
+         0         0      8.80      5.05      1.74     82207        75     51096    84429.33    55690.42
+         0         0      8.20      5.47      1.50     38807        77     49340    77911.86    53682.97
+         0         0      7.78      2.95      2.63      5465        80     43856    68856.00    55912.75
+
+total elapsed seconds = 0.140000
+average flips per second = 3934628
+number solutions found = 8
+final success rate = 80.000000
+average length successful tries = 43856
+average flips per assign (over all runs) = 68856.000000
+average seconds per assign (over all runs) = 0.017500
+mean flips until assign = 68856.000000
+  variance = 3126235466.000000
+  standard deviation = 55912.748689
+  standard error of mean = 19768.141877
+mean seconds until assign = 0.017500
+  variance = 0.000202
+  standard deviation = 0.014210
+  standard error of mean = 0.005024
+mean restarts until assign = 1.250000
+  variance = 0.214286
+  standard deviation = 0.462910
+  standard error of mean = 0.163663
+final numbad level statistics
+    statistics over all runs:
+      overall mean average numbad = 7.893534
+      overall mean meanbad std deviation = 4.281963
+      overall ratio mean numbad to mean std dev = 1.843438
+    statistics on successful runs:
+      successful mean average numbad = 7.896986
+      successful mean numbad std deviation = 4.258433
+      successful ratio mean numbad to mean std dev = 1.854435
+    statistics on nonsuccessful runs:
+      nonsuccessful mean average numbad level = 7.879727
+      nonsuccessful mean numbad std deviation = 4.376086
+      nonsuccessful ratio mean numbad to mean std dev = 1.800633
+ASSIGNMENT FOUND

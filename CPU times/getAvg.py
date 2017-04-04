@@ -10,6 +10,8 @@ with open(txt) as f:
         for line in f:
 		   k = re.findall( '\d.\d*', line)
 		   if len(k) != 0:
+		   		if(float(k[0]) >= 1):
+		   			continue
 				numList.append(float(k[0]))
 				avg = avg + float(k[0])
 numList.sort()

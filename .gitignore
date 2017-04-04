@@ -4,3 +4,10 @@ SudokuAsSAT.pdf
 makequeens
 makewff
 walksat
+sud2satOutput
+miniSATOutput
+test
+test_puzzles_miniSATOutput
+test_puzzles_sat2sudOutput
+top95_miniSATOutput
+top95_sat2sudOutput

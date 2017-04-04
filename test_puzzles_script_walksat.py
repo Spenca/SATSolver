@@ -6,7 +6,7 @@ def runSolver(s):
 		subprocess.check_output(["python", "sud2sat.py", s, "1"])
 	else:
 		subprocess.check_output(["python", "sud2sat.py", s])
-	p = subprocess.Popen(["./Walksat_v51/walksat", "sud2satOutput", "miniSATOutput"], stdout=subprocess.PIPE)
+	p = subprocess.Popen(["./walksat", "-out", "miniSATOutput", "sud2satOutput"], stdout=subprocess.PIPE)
 	out, err = p.communicate()
 
 	f = open('test_puzzles_miniSATOutput', 'a')

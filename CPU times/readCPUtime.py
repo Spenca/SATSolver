@@ -7,6 +7,7 @@ avg = 0
 with open(txt) as f:
     with open(output, "w") as f1:
         for line in f:
+			#if  "total elapsed seconds " in line
             if "CPU time" in line:
 				count = count + 1
 				f1.write(line)

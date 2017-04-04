@@ -51,22 +51,6 @@ get a list of command line options, type
 
 *****************************************************************
 
-Also included in distribution:
-
-makewff [-seed N] [-cnf] [-f] [-kf] clen nvars nclauses
-
-Generate random formulas using the fixed clause length model.
-The -seed argument can be used to initialize the random number
-generator.  The -cnf, -f, and -kf options specify the format of the
-wff file; for walksat use -cnf.  Clen is the length of each clause,
-nvars the number of variables, and nclauses the number of clauses.
-
-makequeens N
-
-Generate a N-queens formula.
-
-*****************************************************************
-
 HISTORY
 
 version 7 - introduced breakcount[] array

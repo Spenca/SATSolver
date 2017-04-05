@@ -27,8 +27,7 @@ We finished the basic task and the three extended tasks.
 <br />
 **README**
 This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,
-the Readme also includes details about our files that help people understand and use the code. Group member names and IDs
-are written in this file. 
+the Readme also includes details about our files that help people understand and use the code. Group member names are written in this file. 
 <br />
 <br />
 **Report**

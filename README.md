@@ -3,10 +3,10 @@ SAT-based Sudoku solver for CSC320.
 We finished the basic task and the three extended tasks.  
 
 **Members:**<br />
--Yuki Hayashi V00825042<br />
--Spencer Vatrt-Watts V00818326<br />
--Mohammed Abousaleh V00812028<br />
--Zane Li V00825115<br />
+-Yuki Hayashi <br />
+-Spencer Vatrt-Watts <br />
+-Mohammed Abousaleh <br />
+-Zane Li <br />
 
 
 **Files in Submission:**<br />

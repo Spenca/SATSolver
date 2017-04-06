@@ -1,5 +1,5 @@
 # SATSolver
-SAT-based Sudoku solver for CSC320.
+SAT-based Sudoku solver for CSC320 at UVic.
 We finished the basic task and the three extended tasks.  
 
 **Members:**<br />
@@ -38,17 +38,17 @@ which includes the mean, median, variance, and standard deviation.
 <br />
 **sud2sat.py**
 This file is a python script that reads a unsolved Sudoku puzzle in a specified format in a txt file. This generated txt file will be used for the input to the miniSAT solver. 
-To run the sud2say: $ python sud2sat.py < name of test files >.txt 
+To run the sud2sat: $ python sud2sat.py name_of_test_file.txt 
 Afterwards, a txt file called "sud2satOutput" will be generated
-To run this txt with miniSAT: $ minsat < name of testfile >.txt < name of output file >.txt
+To run this txt with miniSAT: $ minsat name_of_test_file.txt name_of_output_file.txt
 <br />
 <br />
-Note: only one sudoku puzzle can be run in the testfile. 
+Note: only one sudoku puzzle can be run in the test file. 
 <br />
 <br />
 **sat2sud.py**
 This file is a python script that reads the output generated from miniSAT and converts the output back into a sudoku puzzle encoded as an 81 character string.
-Convert the output back to a sudoku: 	$ python sat2sud.py < name of testfile of sudoku in CNF from >.txt
+Convert the output back to a sudoku: 	$ python sat2sud.py name_of_test_file_of_sudoku_in_CNF.txt
 <br />
 <br />
 Note: the solved sudoku puzzle will be shown in a 9x9 grid in the terminal. 
@@ -97,7 +97,7 @@ The second extended task consisted of testing an alternative to miniSAT's minima
 <br />
 <br />
 ### Third Extended Task
-The third extended task consisted of testing a different SAT-solver. For this task we chose to use walksat, available at <a href="https://www.cs.rochester.edu/u/kautz/walksat/">https://www.cs.rochester.edu/u/kautz/walksat/</a>.
+The third extended task consisted of testing a different SAT-solver. For this task we chose to use walksat, available at <a href="https://www.cs.rochester.edu/u/kautz/walksat/">https://www.cs.rochester.edu/u/kautz/walksat/</a>. Walksat must be installed for the following script to work, this can be accomplished by running the makefile included in this repo.
 <br />
 <br />
 **test_puzzles_script_walksat.py**

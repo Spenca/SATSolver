@@ -1,15 +1,15 @@
 # SATSolver
-SAT-based Sudoku solver for CSC320 at UVic.
-We finished the basic task and the three extended tasks.  
+SAT-based Sudoku solver. Uses minisat and walksat
+Contains a basic implementation and some extended functionality as well.  
 
-**Members:**<br />
--Yuki Hayashi <br />
--Spencer Vatrt-Watts <br />
--Mohammed Abousaleh <br />
--Zane Li <br />
+**Contributers:**<br />
+Yuki Hayashi <br />
+Spencer Vatrt-Watts <br />
+Mohammed Abousaleh <br />
+Zane Li <br />
 
 
-**Files in Submission:**<br />
+**Files:**<br />
 -README<br />
 -Report<br />
 -sud2sat.py<br />
@@ -64,8 +64,8 @@ This file is an executable that runs unsolved sudoku puzzles from test_puzzles.t
 puzzle solutions to two files. 
 <br />
 <br />
-## Extended Tasks
-We did three extended tasks. 
+## Extended Implementation
+We completed three extended tasks. 
 <br />
 ### First Extended Task
 The first extended task consisted of testing the solver on hard inputs from 

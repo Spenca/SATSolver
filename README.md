@@ -1,29 +1,29 @@
 # SATSolver
-SAT-based Sudoku solver. Uses minisat and walksat
+SAT-based Sudoku solver. Uses minisat and walksat.<br />
 Contains a basic implementation and some extended functionality as well.  
 
 **Contributers:**<br />
-Yuki Hayashi <br />
-Spencer Vatrt-Watts <br />
-Mohammed Abousaleh <br />
-Zane Li <br />
+Yuki Hayashi<br />
+Spencer Vatrt-Watts<br />
+Mohammed Abousaleh<br />
+Zane Li<br />
 
 
 **Files:**<br />
--README<br />
--Report<br />
--sud2sat.py<br />
--sat2sud.py<br />
--test_puzzles.txt<br />
--test_puzzles_script.py<br />
--top95.txt<br />
--top95_script.py<br />
--test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt<br />
--test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt<br />
--top95_miniSATOutput-MINIMAL-ENCODING.txt<br />
--top95_miniSATOutput-EXTENDED-ENCODING.txt<br />
--test_puzzles_script_walksat.py<br />
--top95_script_walksat.py<br />
+README<br />
+Report<br />
+sud2sat.py<br />
+sat2sud.py<br />
+test_puzzles.txt<br />
+test_puzzles_script.py<br />
+top95.txt<br />
+top95_script.py<br />
+test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt<br />
+test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt<br />
+top95_miniSATOutput-MINIMAL-ENCODING.txt<br />
+top95_miniSATOutput-EXTENDED-ENCODING.txt<br />
+test_puzzles_script_walksat.py<br />
+top95_script_walksat.py<br />
 <br />
 **README**
 This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,

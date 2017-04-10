@@ -65,7 +65,7 @@ puzzle solutions to two files.
 <br />
 ### First Extended Task
 The first extended task consisted of testing the solver on hard inputs from 
-<a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>
+<a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>.
 <br />
 <br />
 **top95.txt**

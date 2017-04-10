@@ -18,10 +18,6 @@ test_puzzles.txt<br />
 test_puzzles_script.py<br />
 top95.txt<br />
 top95_script.py<br />
-test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt<br />
-test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt<br />
-top95_miniSATOutput-MINIMAL-ENCODING.txt<br />
-top95_miniSATOutput-EXTENDED-ENCODING.txt<br />
 test_puzzles_script_walksat.py<br />
 top95_script_walksat.py<br />
 <br />

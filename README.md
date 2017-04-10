@@ -65,7 +65,6 @@ puzzle solutions to two files.
 <br />
 <br />
 ## Extended Implementation
-We completed three extended tasks. 
 <br />
 ### First Extended Task
 The first extended task consisted of testing the solver on hard inputs from 
@@ -81,22 +80,6 @@ This file is an executable similar to test_puzzles_script.py, in which the progr
 <br />
 <br />
 ### Second Extended Task
-The second extended task consisted of testing an alternative to miniSAT's minimal encoding. We tested both minimal and extended encoding with miniSAT on test_puzzles.txt and top95.txt, and the results can be found in the following four files.
-<br />
-<br />
-**test_puzzles_miniSATOutput-MINIMAL-ENCODING.txt**
-<br />
-<br />
-**test_puzzles_miniSATOutput-EXTENDED-ENCODING.txt**
-<br />
-<br />
-**top95_miniSATOutput-MINIMAL-ENCODING.txt**
-<br />
-<br />
-**top95_miniSATOutput-EXTENDED-ENCODING.txt**
-<br />
-<br />
-### Third Extended Task
 The third extended task consisted of testing a different SAT-solver. For this task we chose to use walksat, available at <a href="https://www.cs.rochester.edu/u/kautz/walksat/">https://www.cs.rochester.edu/u/kautz/walksat/</a>. Walksat must be installed for the following script to work, this can be accomplished by running the makefile included in this repo.
 <br />
 <br />

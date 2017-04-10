@@ -62,7 +62,7 @@ puzzle solutions to two files.
 <br />
 ## Extended Implementation
 <br />
-### First Extended Task
+### First Extended Task ###
 The first extended task consisted of testing the solver on hard inputs from 
 <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>
 <br />
@@ -75,7 +75,7 @@ This txt file includes the hard inputs from <a href="http://magictour.free.fr/to
 This file is an executable similar to test_puzzles_script.py, in which the program runs unsolved puzzles from top95.txt and writes the results from miniSAT and puzzle solutions to two files.
 <br />
 <br />
-### Second Extended Task
+### Second Extended Task ###
 The third extended task consisted of testing a different SAT-solver. For this task we chose to use walksat, available at <a href="https://www.cs.rochester.edu/u/kautz/walksat/">https://www.cs.rochester.edu/u/kautz/walksat/</a>. Walksat must be installed for the following script to work, this can be accomplished by running the makefile included in this repo.
 <br />
 <br />

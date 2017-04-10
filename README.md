@@ -26,7 +26,7 @@ test_puzzles_script_walksat.py<br />
 top95_script_walksat.py<br />
 <br />
 **README**
-This file describes the contents of every file in the zip folder. In addition to the general descriptions of files,
+This file describes the contents of every file in the repository. In addition to the general descriptions of files,
 the Readme also includes details about our files that help people understand and use the code. Group member names are written in this file. 
 <br />
 <br />

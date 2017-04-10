@@ -60,9 +60,6 @@ This file is an executable that runs unsolved sudoku puzzles from test_puzzles.t
 puzzle solutions to two files. 
 <br />
 <br />
-## Extended Implementation
-<br />
-<br />
 ### First Extended Task
 The first extended task consisted of testing the solver on hard inputs from 
 <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>.

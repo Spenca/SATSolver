@@ -1,6 +1,6 @@
 # SATSolver
 SAT-based Sudoku solver. Uses minisat and walksat.<br />
-Contains a basic implementation and some extended functionality as well.  
+Comprised of a basic implementation and some extended functionality as well.  
 
 **Contributers:**<br />
 Yuki Hayashi<br />
@@ -51,8 +51,7 @@ Note: the solved sudoku puzzle will be shown in a 9x9 grid in the terminal.
 <br />
 <br />
 **test_puzzles.txt**
-This file contains 50 unsolved sudoku puzzles that come from <a href="https://projecteuler.net/project/resources/p096_sudoku.txt">https://projecteuler.net/project/resources/p096_sudoku.txt</a>
-<br /> These puzzles were used to test our solution and we documented the results of the tests. 
+This file contains 50 unsolved sudoku puzzles that come from <a href="https://projecteuler.net/project/resources/p096_sudoku.txt">https://projecteuler.net/project/resources/p096_sudoku.txt</a>. These puzzles were used to test our solution and we documented the results of the tests. 
 <br />
 <br />
 **test_puzzles_script.py**
@@ -66,7 +65,7 @@ The first extended task consisted of testing the solver on hard inputs from
 <br />
 <br />
 **top95.txt**
-This txt file includes the hard inputs from <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>. This contents of the file will be run by top95_script.py
+This txt file includes the hard inputs from <a href="http://magictour.free.fr/top95">http://magictour.free.fr/top95</a>. This contents of the file will be run by top95_script.py.
 <br />
 <br />
 **top95_script.py**
